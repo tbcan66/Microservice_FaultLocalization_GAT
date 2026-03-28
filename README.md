@@ -39,7 +39,7 @@ Zenodo Upload/
 │   │   ├── level3_method_graph_pruned.json  ← method graph after helper-node collapse
 │   │   └── prune_method_graph.py            ← pruning script
 │   │
-│   └── Code Quality Metrics/
+│   └── Code Metrics/
 │       ├── code_metrics.json            ← raw extracted metric values (all methods)
 │       └── metric_importance_stats.json ← Mann-Whitney U, Cliff's delta, Spearman rho
 │
@@ -94,13 +94,12 @@ Each entry represents one integration test:
 - 210 integration tests total: **26 failing** (covering **14 distinct faulty methods**), 184 passing.
 - 1 failing test excluded from evaluation (no method-level coverage path).
 
-### Code Quality Metrics (JSON)
+### Code Metrics (JSON)
 
 `code_metrics.json` contains per-method metric values for all 1,990 method nodes. Keys used:
 
 | Metric key | Description |
 |---|---|
-| `cyclomatic_complexity` | McCabe's cyclomatic complexity |
 | `loc` | Lines of code (excl. blank/comments) |
 | `fan_in` | Number of callers (in-degree in call graph) |
 | `fan_out` | Number of callees (out-degree in call graph) |
@@ -145,7 +144,7 @@ Outputs Top-1/3/5 accuracy for service, API, and method levels using message-pas
 python "Model Codes/run_gnn_gat_optionB.py"
 ```
 
-Trains a 2-layer Graph Attention Network (`FaultLocGAT`: GATConv hidden=32, heads=4, epochs=300, lr=0.005) on the method-level graph with 12-dim node features including Ochiai score and 4 code quality metrics.
+Trains a 2-layer Graph Attention Network (`FaultLocGAT`: GATConv hidden=32, heads=4, epochs=300, lr=0.005) on the method-level graph with 12-dim node features including Ochiai score and 4 code metrics.
 
 ### Step 3 — Metric Importance Analysis
 
