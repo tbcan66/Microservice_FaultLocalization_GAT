@@ -1,0 +1,3216 @@
+{
+  "nodes": [
+    {
+      "id": "USER / UI",
+      "label": "USER / UI",
+      "service": "EXTERNAL",
+      "type": "API"
+    },
+    {
+      "id": "ts-admin-basic-info-service:REQUEST /api/v1/adminbasicservice/api/v1/adminbasicservice",
+      "label": "/api/v1/adminbasicservice/api/v1/adminbasicservice",
+      "service": "ts-admin-basic-info-service",
+      "method": "REQUEST",
+      "path": "/api/v1/adminbasicservice/api/v1/adminbasicservice",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/welcome",
+      "label": "/api/v1/adminbasicservice/welcome",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/welcome",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/contacts",
+      "label": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/contacts/{contactsId}",
+      "label": "/api/v1/adminbasicservice/adminbasic/contacts/{contactsId}",
+      "service": "ts-admin-basic-info-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminbasicservice/adminbasic/contacts/{contactsId}",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:PUT /api/v1/adminbasicservice/adminbasic/contacts",
+      "label": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "service": "ts-admin-basic-info-service",
+      "method": "PUT",
+      "path": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/contacts",
+      "label": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "service": "ts-admin-basic-info-service",
+      "method": "POST",
+      "path": "/api/v1/adminbasicservice/adminbasic/contacts",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/stations",
+      "label": "/api/v1/adminbasicservice/adminbasic/stations",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/adminbasic/stations",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/stations",
+      "label": "/api/v1/adminbasicservice/adminbasic/stations",
+      "service": "ts-admin-basic-info-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminbasicservice/adminbasic/stations",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:PUT /api/v1/adminbasicservice/adminbasic/stations",
+      "label": "/api/v1/adminbasicservice/adminbasic/stations",
+      "service": "ts-admin-basic-info-service",
+      "method": "PUT",
+      "path": "/api/v1/adminbasicservice/adminbasic/stations",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/stations",
+      "label": "/api/v1/adminbasicservice/adminbasic/stations",
+      "service": "ts-admin-basic-info-service",
+      "method": "POST",
+      "path": "/api/v1/adminbasicservice/adminbasic/stations",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/trains",
+      "label": "/api/v1/adminbasicservice/adminbasic/trains",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/adminbasic/trains",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/trains/{id}",
+      "label": "/api/v1/adminbasicservice/adminbasic/trains/{id}",
+      "service": "ts-admin-basic-info-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminbasicservice/adminbasic/trains/{id}",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:PUT /api/v1/adminbasicservice/adminbasic/trains",
+      "label": "/api/v1/adminbasicservice/adminbasic/trains",
+      "service": "ts-admin-basic-info-service",
+      "method": "PUT",
+      "path": "/api/v1/adminbasicservice/adminbasic/trains",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/trains",
+      "label": "/api/v1/adminbasicservice/adminbasic/trains",
+      "service": "ts-admin-basic-info-service",
+      "method": "POST",
+      "path": "/api/v1/adminbasicservice/adminbasic/trains",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/configs",
+      "label": "/api/v1/adminbasicservice/adminbasic/configs",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/adminbasic/configs",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/configs/{name}",
+      "label": "/api/v1/adminbasicservice/adminbasic/configs/{name}",
+      "service": "ts-admin-basic-info-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminbasicservice/adminbasic/configs/{name}",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:PUT /api/v1/adminbasicservice/adminbasic/configs",
+      "label": "/api/v1/adminbasicservice/adminbasic/configs",
+      "service": "ts-admin-basic-info-service",
+      "method": "PUT",
+      "path": "/api/v1/adminbasicservice/adminbasic/configs",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/configs",
+      "label": "/api/v1/adminbasicservice/adminbasic/configs",
+      "service": "ts-admin-basic-info-service",
+      "method": "POST",
+      "path": "/api/v1/adminbasicservice/adminbasic/configs",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/prices",
+      "label": "/api/v1/adminbasicservice/adminbasic/prices",
+      "service": "ts-admin-basic-info-service",
+      "method": "GET",
+      "path": "/api/v1/adminbasicservice/adminbasic/prices",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/prices",
+      "label": "/api/v1/adminbasicservice/adminbasic/prices",
+      "service": "ts-admin-basic-info-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminbasicservice/adminbasic/prices",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:PUT /api/v1/adminbasicservice/adminbasic/prices",
+      "label": "/api/v1/adminbasicservice/adminbasic/prices",
+      "service": "ts-admin-basic-info-service",
+      "method": "PUT",
+      "path": "/api/v1/adminbasicservice/adminbasic/prices",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/prices",
+      "label": "/api/v1/adminbasicservice/adminbasic/prices",
+      "service": "ts-admin-basic-info-service",
+      "method": "POST",
+      "path": "/api/v1/adminbasicservice/adminbasic/prices",
+      "type": "API",
+      "info": "AdminBasicInfoController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:REQUEST /api/v1/adminorderservice/api/v1/adminorderservice",
+      "label": "/api/v1/adminorderservice/api/v1/adminorderservice",
+      "service": "ts-admin-order-service",
+      "method": "REQUEST",
+      "path": "/api/v1/adminorderservice/api/v1/adminorderservice",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:GET /api/v1/adminorderservice/welcome",
+      "label": "/api/v1/adminorderservice/welcome",
+      "service": "ts-admin-order-service",
+      "method": "GET",
+      "path": "/api/v1/adminorderservice/welcome",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:GET /api/v1/adminorderservice/adminorder",
+      "label": "/api/v1/adminorderservice/adminorder",
+      "service": "ts-admin-order-service",
+      "method": "GET",
+      "path": "/api/v1/adminorderservice/adminorder",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:POST /api/v1/adminorderservice/adminorder",
+      "label": "/api/v1/adminorderservice/adminorder",
+      "service": "ts-admin-order-service",
+      "method": "POST",
+      "path": "/api/v1/adminorderservice/adminorder",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:PUT /api/v1/adminorderservice/adminorder",
+      "label": "/api/v1/adminorderservice/adminorder",
+      "service": "ts-admin-order-service",
+      "method": "PUT",
+      "path": "/api/v1/adminorderservice/adminorder",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-order-service:DELETE /api/v1/adminorderservice/adminorder/{orderId}/{trainNumber}",
+      "label": "/api/v1/adminorderservice/adminorder/{orderId}/{trainNumber}",
+      "service": "ts-admin-order-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminorderservice/adminorder/{orderId}/{trainNumber}",
+      "type": "API",
+      "info": "AdminOrderController (Java)"
+    },
+    {
+      "id": "ts-admin-route-service:REQUEST /api/v1/adminrouteservice/api/v1/adminrouteservice",
+      "label": "/api/v1/adminrouteservice/api/v1/adminrouteservice",
+      "service": "ts-admin-route-service",
+      "method": "REQUEST",
+      "path": "/api/v1/adminrouteservice/api/v1/adminrouteservice",
+      "type": "API",
+      "info": "AdminRouteController (Java)"
+    },
+    {
+      "id": "ts-admin-route-service:GET /api/v1/adminrouteservice/welcome",
+      "label": "/api/v1/adminrouteservice/welcome",
+      "service": "ts-admin-route-service",
+      "method": "GET",
+      "path": "/api/v1/adminrouteservice/welcome",
+      "type": "API",
+      "info": "AdminRouteController (Java)"
+    },
+    {
+      "id": "ts-admin-route-service:GET /api/v1/adminrouteservice/adminroute",
+      "label": "/api/v1/adminrouteservice/adminroute",
+      "service": "ts-admin-route-service",
+      "method": "GET",
+      "path": "/api/v1/adminrouteservice/adminroute",
+      "type": "API",
+      "info": "AdminRouteController (Java)"
+    },
+    {
+      "id": "ts-admin-route-service:POST /api/v1/adminrouteservice/adminroute",
+      "label": "/api/v1/adminrouteservice/adminroute",
+      "service": "ts-admin-route-service",
+      "method": "POST",
+      "path": "/api/v1/adminrouteservice/adminroute",
+      "type": "API",
+      "info": "AdminRouteController (Java)"
+    },
+    {
+      "id": "ts-admin-route-service:DELETE /api/v1/adminrouteservice/adminroute/{routeId}",
+      "label": "/api/v1/adminrouteservice/adminroute/{routeId}",
+      "service": "ts-admin-route-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminrouteservice/adminroute/{routeId}",
+      "type": "API",
+      "info": "AdminRouteController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:REQUEST /api/v1/admintravelservice/api/v1/admintravelservice",
+      "label": "/api/v1/admintravelservice/api/v1/admintravelservice",
+      "service": "ts-admin-travel-service",
+      "method": "REQUEST",
+      "path": "/api/v1/admintravelservice/api/v1/admintravelservice",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:GET /api/v1/admintravelservice/welcome",
+      "label": "/api/v1/admintravelservice/welcome",
+      "service": "ts-admin-travel-service",
+      "method": "GET",
+      "path": "/api/v1/admintravelservice/welcome",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:GET /api/v1/admintravelservice/admintravel",
+      "label": "/api/v1/admintravelservice/admintravel",
+      "service": "ts-admin-travel-service",
+      "method": "GET",
+      "path": "/api/v1/admintravelservice/admintravel",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:POST /api/v1/admintravelservice/admintravel",
+      "label": "/api/v1/admintravelservice/admintravel",
+      "service": "ts-admin-travel-service",
+      "method": "POST",
+      "path": "/api/v1/admintravelservice/admintravel",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:PUT /api/v1/admintravelservice/admintravel",
+      "label": "/api/v1/admintravelservice/admintravel",
+      "service": "ts-admin-travel-service",
+      "method": "PUT",
+      "path": "/api/v1/admintravelservice/admintravel",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-travel-service:DELETE /api/v1/admintravelservice/admintravel/{tripId}",
+      "label": "/api/v1/admintravelservice/admintravel/{tripId}",
+      "service": "ts-admin-travel-service",
+      "method": "DELETE",
+      "path": "/api/v1/admintravelservice/admintravel/{tripId}",
+      "type": "API",
+      "info": "AdminTravelController (Java)"
+    },
+    {
+      "id": "ts-admin-user-service:REQUEST /api/v1/adminuserservice/users/api/v1/adminuserservice/users",
+      "label": "/api/v1/adminuserservice/users/api/v1/adminuserservice/users",
+      "service": "ts-admin-user-service",
+      "method": "REQUEST",
+      "path": "/api/v1/adminuserservice/users/api/v1/adminuserservice/users",
+      "type": "API",
+      "info": "AdminUserController (Java)"
+    },
+    {
+      "id": "ts-admin-user-service:GET /api/v1/adminuserservice/users/welcome",
+      "label": "/api/v1/adminuserservice/users/welcome",
+      "service": "ts-admin-user-service",
+      "method": "GET",
+      "path": "/api/v1/adminuserservice/users/welcome",
+      "type": "API",
+      "info": "AdminUserController (Java)"
+    },
+    {
+      "id": "ts-admin-user-service:DELETE /api/v1/adminuserservice/users/{userId}",
+      "label": "/api/v1/adminuserservice/users/{userId}",
+      "service": "ts-admin-user-service",
+      "method": "DELETE",
+      "path": "/api/v1/adminuserservice/users/{userId}",
+      "type": "API",
+      "info": "AdminUserController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:REQUEST /api/v1/assuranceservice/api/v1/assuranceservice",
+      "label": "/api/v1/assuranceservice/api/v1/assuranceservice",
+      "service": "ts-assurance-service",
+      "method": "REQUEST",
+      "path": "/api/v1/assuranceservice/api/v1/assuranceservice",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/welcome",
+      "label": "/api/v1/assuranceservice/welcome",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/welcome",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/assurances",
+      "label": "/api/v1/assuranceservice/assurances",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/assurances",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/types",
+      "label": "/api/v1/assuranceservice/assurances/types",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/assurances/types",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:DELETE /api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "label": "/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "service": "ts-assurance-service",
+      "method": "DELETE",
+      "path": "/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:DELETE /api/v1/assuranceservice/assurances/orderid/{orderId}",
+      "label": "/api/v1/assuranceservice/assurances/orderid/{orderId}",
+      "service": "ts-assurance-service",
+      "method": "DELETE",
+      "path": "/api/v1/assuranceservice/assurances/orderid/{orderId}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:PATCH /api/v1/assuranceservice/assurances/{assuranceId}/{orderId}/{typeIndex}",
+      "label": "/api/v1/assuranceservice/assurances/{assuranceId}/{orderId}/{typeIndex}",
+      "service": "ts-assurance-service",
+      "method": "PATCH",
+      "path": "/api/v1/assuranceservice/assurances/{assuranceId}/{orderId}/{typeIndex}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/{typeIndex}/{orderId}",
+      "label": "/api/v1/assuranceservice/assurances/{typeIndex}/{orderId}",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/assurances/{typeIndex}/{orderId}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "label": "/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-assurance-service:GET /api/v1/assuranceservice/assurance/orderid/{orderId}",
+      "label": "/api/v1/assuranceservice/assurance/orderid/{orderId}",
+      "service": "ts-assurance-service",
+      "method": "GET",
+      "path": "/api/v1/assuranceservice/assurance/orderid/{orderId}",
+      "type": "API",
+      "info": "AssuranceController (Java)"
+    },
+    {
+      "id": "ts-auth-service:REQUEST /api/v1/auth/api/v1/auth",
+      "label": "/api/v1/auth/api/v1/auth",
+      "service": "ts-auth-service",
+      "method": "REQUEST",
+      "path": "/api/v1/auth/api/v1/auth",
+      "type": "API",
+      "info": "AuthController (Java)"
+    },
+    {
+      "id": "ts-auth-service:GET /api/v1/auth/hello",
+      "label": "/api/v1/auth/hello",
+      "service": "ts-auth-service",
+      "method": "GET",
+      "path": "/api/v1/auth/hello",
+      "type": "API",
+      "info": "AuthController (Java)"
+    },
+    {
+      "id": "ts-auth-service:REQUEST /api/v1/users/api/v1/users",
+      "label": "/api/v1/users/api/v1/users",
+      "service": "ts-auth-service",
+      "method": "REQUEST",
+      "path": "/api/v1/users/api/v1/users",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-auth-service:GET /api/v1/users/hello",
+      "label": "/api/v1/users/hello",
+      "service": "ts-auth-service",
+      "method": "GET",
+      "path": "/api/v1/users/hello",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-auth-service:POST /api/v1/users/login",
+      "label": "/api/v1/users/login",
+      "service": "ts-auth-service",
+      "method": "POST",
+      "path": "/api/v1/users/login",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-auth-service:DELETE /api/v1/users/{userId}",
+      "label": "/api/v1/users/{userId}",
+      "service": "ts-auth-service",
+      "method": "DELETE",
+      "path": "/api/v1/users/{userId}",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-basic-service:REQUEST /api/v1/basicservice/api/v1/basicservice",
+      "label": "/api/v1/basicservice/api/v1/basicservice",
+      "service": "ts-basic-service",
+      "method": "REQUEST",
+      "path": "/api/v1/basicservice/api/v1/basicservice",
+      "type": "API",
+      "info": "BasicController (Java)"
+    },
+    {
+      "id": "ts-basic-service:GET /api/v1/basicservice/welcome",
+      "label": "/api/v1/basicservice/welcome",
+      "service": "ts-basic-service",
+      "method": "GET",
+      "path": "/api/v1/basicservice/welcome",
+      "type": "API",
+      "info": "BasicController (Java)"
+    },
+    {
+      "id": "ts-basic-service:POST /api/v1/basicservice/basic/travel",
+      "label": "/api/v1/basicservice/basic/travel",
+      "service": "ts-basic-service",
+      "method": "POST",
+      "path": "/api/v1/basicservice/basic/travel",
+      "type": "API",
+      "info": "BasicController (Java)"
+    },
+    {
+      "id": "ts-basic-service:GET /api/v1/basicservice/basic/{stationName}",
+      "label": "/api/v1/basicservice/basic/{stationName}",
+      "service": "ts-basic-service",
+      "method": "GET",
+      "path": "/api/v1/basicservice/basic/{stationName}",
+      "type": "API",
+      "info": "BasicController (Java)"
+    },
+    {
+      "id": "ts-cancel-service:REQUEST /api/v1/cancelservice/api/v1/cancelservice",
+      "label": "/api/v1/cancelservice/api/v1/cancelservice",
+      "service": "ts-cancel-service",
+      "method": "REQUEST",
+      "path": "/api/v1/cancelservice/api/v1/cancelservice",
+      "type": "API",
+      "info": "CancelController (Java)"
+    },
+    {
+      "id": "ts-cancel-service:GET /api/v1/cancelservice/welcome",
+      "label": "/api/v1/cancelservice/welcome",
+      "service": "ts-cancel-service",
+      "method": "GET",
+      "path": "/api/v1/cancelservice/welcome",
+      "type": "API",
+      "info": "CancelController (Java)"
+    },
+    {
+      "id": "ts-cancel-service:GET /api/v1/cancelservice/cancel/refound/{orderId}",
+      "label": "/api/v1/cancelservice/cancel/refound/{orderId}",
+      "service": "ts-cancel-service",
+      "method": "GET",
+      "path": "/api/v1/cancelservice/cancel/refound/{orderId}",
+      "type": "API",
+      "info": "CancelController (Java)"
+    },
+    {
+      "id": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "label": "/api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "service": "ts-cancel-service",
+      "method": "GET",
+      "path": "/api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "type": "API",
+      "info": "CancelController (Java)"
+    },
+    {
+      "id": "ts-config-service:REQUEST /api/v1/configservice/api/v1/configservice",
+      "label": "/api/v1/configservice/api/v1/configservice",
+      "service": "ts-config-service",
+      "method": "REQUEST",
+      "path": "/api/v1/configservice/api/v1/configservice",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:GET /api/v1/configservice/welcome",
+      "label": "/api/v1/configservice/welcome",
+      "service": "ts-config-service",
+      "method": "GET",
+      "path": "/api/v1/configservice/welcome",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:GET /api/v1/configservice/configs",
+      "label": "/api/v1/configservice/configs",
+      "service": "ts-config-service",
+      "method": "GET",
+      "path": "/api/v1/configservice/configs",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:POST /api/v1/configservice/configs",
+      "label": "/api/v1/configservice/configs",
+      "service": "ts-config-service",
+      "method": "POST",
+      "path": "/api/v1/configservice/configs",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:PUT /api/v1/configservice/configs",
+      "label": "/api/v1/configservice/configs",
+      "service": "ts-config-service",
+      "method": "PUT",
+      "path": "/api/v1/configservice/configs",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:DELETE /api/v1/configservice/configs/{configName}",
+      "label": "/api/v1/configservice/configs/{configName}",
+      "service": "ts-config-service",
+      "method": "DELETE",
+      "path": "/api/v1/configservice/configs/{configName}",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-config-service:GET /api/v1/configservice/configs/{configName}",
+      "label": "/api/v1/configservice/configs/{configName}",
+      "service": "ts-config-service",
+      "method": "GET",
+      "path": "/api/v1/configservice/configs/{configName}",
+      "type": "API",
+      "info": "ConfigController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:REQUEST /api/v1/consignpriceservice/api/v1/consignpriceservice",
+      "label": "/api/v1/consignpriceservice/api/v1/consignpriceservice",
+      "service": "ts-consign-price-service",
+      "method": "REQUEST",
+      "path": "/api/v1/consignpriceservice/api/v1/consignpriceservice",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:GET /api/v1/consignpriceservice/welcome",
+      "label": "/api/v1/consignpriceservice/welcome",
+      "service": "ts-consign-price-service",
+      "method": "GET",
+      "path": "/api/v1/consignpriceservice/welcome",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:GET /api/v1/consignpriceservice/consignprice/{weight}/{isWithinRegion}",
+      "label": "/api/v1/consignpriceservice/consignprice/{weight}/{isWithinRegion}",
+      "service": "ts-consign-price-service",
+      "method": "GET",
+      "path": "/api/v1/consignpriceservice/consignprice/{weight}/{isWithinRegion}",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:GET /api/v1/consignpriceservice/consignprice/price",
+      "label": "/api/v1/consignpriceservice/consignprice/price",
+      "service": "ts-consign-price-service",
+      "method": "GET",
+      "path": "/api/v1/consignpriceservice/consignprice/price",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:GET /api/v1/consignpriceservice/consignprice/config",
+      "label": "/api/v1/consignpriceservice/consignprice/config",
+      "service": "ts-consign-price-service",
+      "method": "GET",
+      "path": "/api/v1/consignpriceservice/consignprice/config",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-price-service:POST /api/v1/consignpriceservice/consignprice",
+      "label": "/api/v1/consignpriceservice/consignprice",
+      "service": "ts-consign-price-service",
+      "method": "POST",
+      "path": "/api/v1/consignpriceservice/consignprice",
+      "type": "API",
+      "info": "ConsignPriceController (Java)"
+    },
+    {
+      "id": "ts-consign-service:REQUEST /api/v1/consignservice/api/v1/consignservice",
+      "label": "/api/v1/consignservice/api/v1/consignservice",
+      "service": "ts-consign-service",
+      "method": "REQUEST",
+      "path": "/api/v1/consignservice/api/v1/consignservice",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:GET /api/v1/consignservice/welcome",
+      "label": "/api/v1/consignservice/welcome",
+      "service": "ts-consign-service",
+      "method": "GET",
+      "path": "/api/v1/consignservice/welcome",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:POST /api/v1/consignservice/consigns",
+      "label": "/api/v1/consignservice/consigns",
+      "service": "ts-consign-service",
+      "method": "POST",
+      "path": "/api/v1/consignservice/consigns",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:PUT /api/v1/consignservice/consigns",
+      "label": "/api/v1/consignservice/consigns",
+      "service": "ts-consign-service",
+      "method": "PUT",
+      "path": "/api/v1/consignservice/consigns",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:GET /api/v1/consignservice/consigns/account/{id}",
+      "label": "/api/v1/consignservice/consigns/account/{id}",
+      "service": "ts-consign-service",
+      "method": "GET",
+      "path": "/api/v1/consignservice/consigns/account/{id}",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:GET /api/v1/consignservice/consigns/order/{id}",
+      "label": "/api/v1/consignservice/consigns/order/{id}",
+      "service": "ts-consign-service",
+      "method": "GET",
+      "path": "/api/v1/consignservice/consigns/order/{id}",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-consign-service:GET /api/v1/consignservice/consigns/{consignee}",
+      "label": "/api/v1/consignservice/consigns/{consignee}",
+      "service": "ts-consign-service",
+      "method": "GET",
+      "path": "/api/v1/consignservice/consigns/{consignee}",
+      "type": "API",
+      "info": "ConsignController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:REQUEST /api/v1/contactservice/api/v1/contactservice",
+      "label": "/api/v1/contactservice/api/v1/contactservice",
+      "service": "ts-contacts-service",
+      "method": "REQUEST",
+      "path": "/api/v1/contactservice/api/v1/contactservice",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:GET /api/v1/contactservice/contacts/welcome",
+      "label": "/api/v1/contactservice/contacts/welcome",
+      "service": "ts-contacts-service",
+      "method": "GET",
+      "path": "/api/v1/contactservice/contacts/welcome",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:GET /api/v1/contactservice/contacts",
+      "label": "/api/v1/contactservice/contacts",
+      "service": "ts-contacts-service",
+      "method": "GET",
+      "path": "/api/v1/contactservice/contacts",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:POST /api/v1/contactservice/contacts",
+      "label": "/api/v1/contactservice/contacts",
+      "service": "ts-contacts-service",
+      "method": "POST",
+      "path": "/api/v1/contactservice/contacts",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:POST /api/v1/contactservice/contacts/admin",
+      "label": "/api/v1/contactservice/contacts/admin",
+      "service": "ts-contacts-service",
+      "method": "POST",
+      "path": "/api/v1/contactservice/contacts/admin",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:DELETE /api/v1/contactservice/contacts/{contactsId}",
+      "label": "/api/v1/contactservice/contacts/{contactsId}",
+      "service": "ts-contacts-service",
+      "method": "DELETE",
+      "path": "/api/v1/contactservice/contacts/{contactsId}",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:PUT /api/v1/contactservice/contacts",
+      "label": "/api/v1/contactservice/contacts",
+      "service": "ts-contacts-service",
+      "method": "PUT",
+      "path": "/api/v1/contactservice/contacts",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:GET /api/v1/contactservice/contacts/account/{accountId}",
+      "label": "/api/v1/contactservice/contacts/account/{accountId}",
+      "service": "ts-contacts-service",
+      "method": "GET",
+      "path": "/api/v1/contactservice/contacts/account/{accountId}",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-contacts-service:GET /api/v1/contactservice/contacts/{id}",
+      "label": "/api/v1/contactservice/contacts/{id}",
+      "service": "ts-contacts-service",
+      "method": "GET",
+      "path": "/api/v1/contactservice/contacts/{id}",
+      "type": "API",
+      "info": "ContactsController (Java)"
+    },
+    {
+      "id": "ts-execute-service:REQUEST /api/v1/executeservice/api/v1/executeservice",
+      "label": "/api/v1/executeservice/api/v1/executeservice",
+      "service": "ts-execute-service",
+      "method": "REQUEST",
+      "path": "/api/v1/executeservice/api/v1/executeservice",
+      "type": "API",
+      "info": "ExecuteControlller (Java)"
+    },
+    {
+      "id": "ts-execute-service:GET /api/v1/executeservice/welcome",
+      "label": "/api/v1/executeservice/welcome",
+      "service": "ts-execute-service",
+      "method": "GET",
+      "path": "/api/v1/executeservice/welcome",
+      "type": "API",
+      "info": "ExecuteControlller (Java)"
+    },
+    {
+      "id": "ts-execute-service:GET /api/v1/executeservice/execute/execute/{orderId}",
+      "label": "/api/v1/executeservice/execute/execute/{orderId}",
+      "service": "ts-execute-service",
+      "method": "GET",
+      "path": "/api/v1/executeservice/execute/execute/{orderId}",
+      "type": "API",
+      "info": "ExecuteControlller (Java)"
+    },
+    {
+      "id": "ts-execute-service:GET /api/v1/executeservice/execute/collected/{orderId}",
+      "label": "/api/v1/executeservice/execute/collected/{orderId}",
+      "service": "ts-execute-service",
+      "method": "GET",
+      "path": "/api/v1/executeservice/execute/collected/{orderId}",
+      "type": "API",
+      "info": "ExecuteControlller (Java)"
+    },
+    {
+      "id": "ts-food-map-service:REQUEST /api/v1/foodmapservice/api/v1/foodmapservice",
+      "label": "/api/v1/foodmapservice/api/v1/foodmapservice",
+      "service": "ts-food-map-service",
+      "method": "REQUEST",
+      "path": "/api/v1/foodmapservice/api/v1/foodmapservice",
+      "type": "API",
+      "info": "TrainFoodController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/trainfoods/welcome",
+      "label": "/api/v1/foodmapservice/trainfoods/welcome",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/trainfoods/welcome",
+      "type": "API",
+      "info": "TrainFoodController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/trainfoods",
+      "label": "/api/v1/foodmapservice/trainfoods",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/trainfoods",
+      "type": "API",
+      "info": "TrainFoodController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/trainfoods/{tripId}",
+      "label": "/api/v1/foodmapservice/trainfoods/{tripId}",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/trainfoods/{tripId}",
+      "type": "API",
+      "info": "TrainFoodController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/foodstores/welcome",
+      "label": "/api/v1/foodmapservice/foodstores/welcome",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/foodstores/welcome",
+      "type": "API",
+      "info": "FoodStoreController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/foodstores",
+      "label": "/api/v1/foodmapservice/foodstores",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/foodstores",
+      "type": "API",
+      "info": "FoodStoreController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:GET /api/v1/foodmapservice/foodstores/{stationId}",
+      "label": "/api/v1/foodmapservice/foodstores/{stationId}",
+      "service": "ts-food-map-service",
+      "method": "GET",
+      "path": "/api/v1/foodmapservice/foodstores/{stationId}",
+      "type": "API",
+      "info": "FoodStoreController (Java)"
+    },
+    {
+      "id": "ts-food-map-service:POST /api/v1/foodmapservice/foodstores",
+      "label": "/api/v1/foodmapservice/foodstores",
+      "service": "ts-food-map-service",
+      "method": "POST",
+      "path": "/api/v1/foodmapservice/foodstores",
+      "type": "API",
+      "info": "FoodStoreController (Java)"
+    },
+    {
+      "id": "ts-food-service:REQUEST /api/v1/foodservice/api/v1/foodservice",
+      "label": "/api/v1/foodservice/api/v1/foodservice",
+      "service": "ts-food-service",
+      "method": "REQUEST",
+      "path": "/api/v1/foodservice/api/v1/foodservice",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:GET /api/v1/foodservice/welcome",
+      "label": "/api/v1/foodservice/welcome",
+      "service": "ts-food-service",
+      "method": "GET",
+      "path": "/api/v1/foodservice/welcome",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:GET /api/v1/foodservice/orders",
+      "label": "/api/v1/foodservice/orders",
+      "service": "ts-food-service",
+      "method": "GET",
+      "path": "/api/v1/foodservice/orders",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:POST /api/v1/foodservice/orders",
+      "label": "/api/v1/foodservice/orders",
+      "service": "ts-food-service",
+      "method": "POST",
+      "path": "/api/v1/foodservice/orders",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:PUT /api/v1/foodservice/orders",
+      "label": "/api/v1/foodservice/orders",
+      "service": "ts-food-service",
+      "method": "PUT",
+      "path": "/api/v1/foodservice/orders",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:DELETE /api/v1/foodservice/orders/{orderId}",
+      "label": "/api/v1/foodservice/orders/{orderId}",
+      "service": "ts-food-service",
+      "method": "DELETE",
+      "path": "/api/v1/foodservice/orders/{orderId}",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:GET /api/v1/foodservice/orders/{orderId}",
+      "label": "/api/v1/foodservice/orders/{orderId}",
+      "service": "ts-food-service",
+      "method": "GET",
+      "path": "/api/v1/foodservice/orders/{orderId}",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-food-service:GET /api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "label": "/api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "service": "ts-food-service",
+      "method": "GET",
+      "path": "/api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "type": "API",
+      "info": "FoodController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:REQUEST /api/v1/inside_pay_service/api/v1/inside_pay_service",
+      "label": "/api/v1/inside_pay_service/api/v1/inside_pay_service",
+      "service": "ts-inside-payment-service",
+      "method": "REQUEST",
+      "path": "/api/v1/inside_pay_service/api/v1/inside_pay_service",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/welcome",
+      "label": "/api/v1/inside_pay_service/welcome",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/welcome",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment",
+      "label": "/api/v1/inside_pay_service/inside_payment",
+      "service": "ts-inside-payment-service",
+      "method": "POST",
+      "path": "/api/v1/inside_pay_service/inside_payment",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/account",
+      "label": "/api/v1/inside_pay_service/inside_payment/account",
+      "service": "ts-inside-payment-service",
+      "method": "POST",
+      "path": "/api/v1/inside_pay_service/inside_payment/account",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/{userId}/{money}",
+      "label": "/api/v1/inside_pay_service/inside_payment/{userId}/{money}",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/inside_payment/{userId}/{money}",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/payment",
+      "label": "/api/v1/inside_pay_service/inside_payment/payment",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/inside_payment/payment",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/account",
+      "label": "/api/v1/inside_pay_service/inside_payment/account",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/inside_payment/account",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/drawback/{userId}/{money}",
+      "label": "/api/v1/inside_pay_service/inside_payment/drawback/{userId}/{money}",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/inside_payment/drawback/{userId}/{money}",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+      "label": "/api/v1/inside_pay_service/inside_payment/difference",
+      "service": "ts-inside-payment-service",
+      "method": "POST",
+      "path": "/api/v1/inside_pay_service/inside_payment/difference",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/money",
+      "label": "/api/v1/inside_pay_service/inside_payment/money",
+      "service": "ts-inside-payment-service",
+      "method": "GET",
+      "path": "/api/v1/inside_pay_service/inside_payment/money",
+      "type": "API",
+      "info": "InsidePaymentController (Java)"
+    },
+    {
+      "id": "ts-news-service:API /",
+      "label": "/",
+      "service": "ts-news-service",
+      "method": "API",
+      "path": "/",
+      "type": "API",
+      "info": "main.go (Go)"
+    },
+    {
+      "id": "ts-notification-service:REQUEST /api/v1/notifyservice/api/v1/notifyservice",
+      "label": "/api/v1/notifyservice/api/v1/notifyservice",
+      "service": "ts-notification-service",
+      "method": "REQUEST",
+      "path": "/api/v1/notifyservice/api/v1/notifyservice",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-notification-service:GET /api/v1/notifyservice/welcome",
+      "label": "/api/v1/notifyservice/welcome",
+      "service": "ts-notification-service",
+      "method": "GET",
+      "path": "/api/v1/notifyservice/welcome",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-notification-service:POST /api/v1/notifyservice/notification/preserve_success",
+      "label": "/api/v1/notifyservice/notification/preserve_success",
+      "service": "ts-notification-service",
+      "method": "POST",
+      "path": "/api/v1/notifyservice/notification/preserve_success",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-notification-service:POST /api/v1/notifyservice/notification/order_create_success",
+      "label": "/api/v1/notifyservice/notification/order_create_success",
+      "service": "ts-notification-service",
+      "method": "POST",
+      "path": "/api/v1/notifyservice/notification/order_create_success",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-notification-service:POST /api/v1/notifyservice/notification/order_changed_success",
+      "label": "/api/v1/notifyservice/notification/order_changed_success",
+      "service": "ts-notification-service",
+      "method": "POST",
+      "path": "/api/v1/notifyservice/notification/order_changed_success",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-notification-service:POST /api/v1/notifyservice/notification/order_cancel_success",
+      "label": "/api/v1/notifyservice/notification/order_cancel_success",
+      "service": "ts-notification-service",
+      "method": "POST",
+      "path": "/api/v1/notifyservice/notification/order_cancel_success",
+      "type": "API",
+      "info": "NotificationController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:REQUEST /api/v1/orderOtherService/api/v1/orderOtherService",
+      "label": "/api/v1/orderOtherService/api/v1/orderOtherService",
+      "service": "ts-order-other-service",
+      "method": "REQUEST",
+      "path": "/api/v1/orderOtherService/api/v1/orderOtherService",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/welcome",
+      "label": "/api/v1/orderOtherService/welcome",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/welcome",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/tickets",
+      "label": "/api/v1/orderOtherService/orderOther/tickets",
+      "service": "ts-order-other-service",
+      "method": "POST",
+      "path": "/api/v1/orderOtherService/orderOther/tickets",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther",
+      "label": "/api/v1/orderOtherService/orderOther",
+      "service": "ts-order-other-service",
+      "method": "POST",
+      "path": "/api/v1/orderOtherService/orderOther",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/admin",
+      "label": "/api/v1/orderOtherService/orderOther/admin",
+      "service": "ts-order-other-service",
+      "method": "POST",
+      "path": "/api/v1/orderOtherService/orderOther/admin",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/query",
+      "label": "/api/v1/orderOtherService/orderOther/query",
+      "service": "ts-order-other-service",
+      "method": "POST",
+      "path": "/api/v1/orderOtherService/orderOther/query",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/refresh",
+      "label": "/api/v1/orderOtherService/orderOther/refresh",
+      "service": "ts-order-other-service",
+      "method": "POST",
+      "path": "/api/v1/orderOtherService/orderOther/refresh",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/{travelDate}/{trainNumber}",
+      "label": "/api/v1/orderOtherService/orderOther/{travelDate}/{trainNumber}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/{travelDate}/{trainNumber}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/price/{orderId}",
+      "label": "/api/v1/orderOtherService/orderOther/price/{orderId}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/price/{orderId}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/orderPay/{orderId}",
+      "label": "/api/v1/orderOtherService/orderOther/orderPay/{orderId}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/orderPay/{orderId}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/{orderId}",
+      "label": "/api/v1/orderOtherService/orderOther/{orderId}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/{orderId}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/status/{orderId}/{status}",
+      "label": "/api/v1/orderOtherService/orderOther/status/{orderId}/{status}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/status/{orderId}/{status}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId}",
+      "label": "/api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId}",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:PUT /api/v1/orderOtherService/orderOther",
+      "label": "/api/v1/orderOtherService/orderOther",
+      "service": "ts-order-other-service",
+      "method": "PUT",
+      "path": "/api/v1/orderOtherService/orderOther",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:PUT /api/v1/orderOtherService/orderOther/admin",
+      "label": "/api/v1/orderOtherService/orderOther/admin",
+      "service": "ts-order-other-service",
+      "method": "PUT",
+      "path": "/api/v1/orderOtherService/orderOther/admin",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:DELETE /api/v1/orderOtherService/orderOther/{orderId}",
+      "label": "/api/v1/orderOtherService/orderOther/{orderId}",
+      "service": "ts-order-other-service",
+      "method": "DELETE",
+      "path": "/api/v1/orderOtherService/orderOther/{orderId}",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-other-service:GET /api/v1/orderOtherService/orderOther",
+      "label": "/api/v1/orderOtherService/orderOther",
+      "service": "ts-order-other-service",
+      "method": "GET",
+      "path": "/api/v1/orderOtherService/orderOther",
+      "type": "API",
+      "info": "OrderOtherController (Java)"
+    },
+    {
+      "id": "ts-order-service:REQUEST /api/v1/orderservice/api/v1/orderservice",
+      "label": "/api/v1/orderservice/api/v1/orderservice",
+      "service": "ts-order-service",
+      "method": "REQUEST",
+      "path": "/api/v1/orderservice/api/v1/orderservice",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/welcome",
+      "label": "/api/v1/orderservice/welcome",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/welcome",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:POST /api/v1/orderservice/order/tickets",
+      "label": "/api/v1/orderservice/order/tickets",
+      "service": "ts-order-service",
+      "method": "POST",
+      "path": "/api/v1/orderservice/order/tickets",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:POST /api/v1/orderservice/order",
+      "label": "/api/v1/orderservice/order",
+      "service": "ts-order-service",
+      "method": "POST",
+      "path": "/api/v1/orderservice/order",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:POST /api/v1/orderservice/order/admin",
+      "label": "/api/v1/orderservice/order/admin",
+      "service": "ts-order-service",
+      "method": "POST",
+      "path": "/api/v1/orderservice/order/admin",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:POST /api/v1/orderservice/order/query",
+      "label": "/api/v1/orderservice/order/query",
+      "service": "ts-order-service",
+      "method": "POST",
+      "path": "/api/v1/orderservice/order/query",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:POST /api/v1/orderservice/order/refresh",
+      "label": "/api/v1/orderservice/order/refresh",
+      "service": "ts-order-service",
+      "method": "POST",
+      "path": "/api/v1/orderservice/order/refresh",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/{travelDate}/{trainNumber}",
+      "label": "/api/v1/orderservice/order/{travelDate}/{trainNumber}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/{travelDate}/{trainNumber}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/price/{orderId}",
+      "label": "/api/v1/orderservice/order/price/{orderId}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/price/{orderId}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/orderPay/{orderId}",
+      "label": "/api/v1/orderservice/order/orderPay/{orderId}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/orderPay/{orderId}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/{orderId}",
+      "label": "/api/v1/orderservice/order/{orderId}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/{orderId}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/status/{orderId}/{status}",
+      "label": "/api/v1/orderservice/order/status/{orderId}/{status}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/status/{orderId}/{status}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order/security/{checkDate}/{accountId}",
+      "label": "/api/v1/orderservice/order/security/{checkDate}/{accountId}",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order/security/{checkDate}/{accountId}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:PUT /api/v1/orderservice/order",
+      "label": "/api/v1/orderservice/order",
+      "service": "ts-order-service",
+      "method": "PUT",
+      "path": "/api/v1/orderservice/order",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:PUT /api/v1/orderservice/order/admin",
+      "label": "/api/v1/orderservice/order/admin",
+      "service": "ts-order-service",
+      "method": "PUT",
+      "path": "/api/v1/orderservice/order/admin",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:DELETE /api/v1/orderservice/order/{orderId}",
+      "label": "/api/v1/orderservice/order/{orderId}",
+      "service": "ts-order-service",
+      "method": "DELETE",
+      "path": "/api/v1/orderservice/order/{orderId}",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-order-service:GET /api/v1/orderservice/order",
+      "label": "/api/v1/orderservice/order",
+      "service": "ts-order-service",
+      "method": "GET",
+      "path": "/api/v1/orderservice/order",
+      "type": "API",
+      "info": "OrderController (Java)"
+    },
+    {
+      "id": "ts-payment-service:REQUEST /api/v1/paymentservice/api/v1/paymentservice",
+      "label": "/api/v1/paymentservice/api/v1/paymentservice",
+      "service": "ts-payment-service",
+      "method": "REQUEST",
+      "path": "/api/v1/paymentservice/api/v1/paymentservice",
+      "type": "API",
+      "info": "PaymentController (Java)"
+    },
+    {
+      "id": "ts-payment-service:GET /api/v1/paymentservice/welcome",
+      "label": "/api/v1/paymentservice/welcome",
+      "service": "ts-payment-service",
+      "method": "GET",
+      "path": "/api/v1/paymentservice/welcome",
+      "type": "API",
+      "info": "PaymentController (Java)"
+    },
+    {
+      "id": "ts-payment-service:POST /api/v1/paymentservice/payment",
+      "label": "/api/v1/paymentservice/payment",
+      "service": "ts-payment-service",
+      "method": "POST",
+      "path": "/api/v1/paymentservice/payment",
+      "type": "API",
+      "info": "PaymentController (Java)"
+    },
+    {
+      "id": "ts-payment-service:POST /api/v1/paymentservice/payment/money",
+      "label": "/api/v1/paymentservice/payment/money",
+      "service": "ts-payment-service",
+      "method": "POST",
+      "path": "/api/v1/paymentservice/payment/money",
+      "type": "API",
+      "info": "PaymentController (Java)"
+    },
+    {
+      "id": "ts-payment-service:GET /api/v1/paymentservice/payment",
+      "label": "/api/v1/paymentservice/payment",
+      "service": "ts-payment-service",
+      "method": "GET",
+      "path": "/api/v1/paymentservice/payment",
+      "type": "API",
+      "info": "PaymentController (Java)"
+    },
+    {
+      "id": "ts-preserve-other-service:REQUEST /api/v1/preserveotherservice/api/v1/preserveotherservice",
+      "label": "/api/v1/preserveotherservice/api/v1/preserveotherservice",
+      "service": "ts-preserve-other-service",
+      "method": "REQUEST",
+      "path": "/api/v1/preserveotherservice/api/v1/preserveotherservice",
+      "type": "API",
+      "info": "PreserveOtherController (Java)"
+    },
+    {
+      "id": "ts-preserve-other-service:GET /api/v1/preserveotherservice/welcome",
+      "label": "/api/v1/preserveotherservice/welcome",
+      "service": "ts-preserve-other-service",
+      "method": "GET",
+      "path": "/api/v1/preserveotherservice/welcome",
+      "type": "API",
+      "info": "PreserveOtherController (Java)"
+    },
+    {
+      "id": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "label": "/api/v1/preserveotherservice/preserveOther",
+      "service": "ts-preserve-other-service",
+      "method": "POST",
+      "path": "/api/v1/preserveotherservice/preserveOther",
+      "type": "API",
+      "info": "PreserveOtherController (Java)"
+    },
+    {
+      "id": "ts-preserve-service:REQUEST /api/v1/preserveservice/api/v1/preserveservice",
+      "label": "/api/v1/preserveservice/api/v1/preserveservice",
+      "service": "ts-preserve-service",
+      "method": "REQUEST",
+      "path": "/api/v1/preserveservice/api/v1/preserveservice",
+      "type": "API",
+      "info": "PreserveController (Java)"
+    },
+    {
+      "id": "ts-preserve-service:GET /api/v1/preserveservice/welcome",
+      "label": "/api/v1/preserveservice/welcome",
+      "service": "ts-preserve-service",
+      "method": "GET",
+      "path": "/api/v1/preserveservice/welcome",
+      "type": "API",
+      "info": "PreserveController (Java)"
+    },
+    {
+      "id": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "label": "/api/v1/preserveservice/preserve",
+      "service": "ts-preserve-service",
+      "method": "POST",
+      "path": "/api/v1/preserveservice/preserve",
+      "type": "API",
+      "info": "PreserveController (Java)"
+    },
+    {
+      "id": "ts-price-service:REQUEST /api/v1/priceservice/api/v1/priceservice",
+      "label": "/api/v1/priceservice/api/v1/priceservice",
+      "service": "ts-price-service",
+      "method": "REQUEST",
+      "path": "/api/v1/priceservice/api/v1/priceservice",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:GET /api/v1/priceservice/prices/welcome",
+      "label": "/api/v1/priceservice/prices/welcome",
+      "service": "ts-price-service",
+      "method": "GET",
+      "path": "/api/v1/priceservice/prices/welcome",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:GET /api/v1/priceservice/prices/{routeId}/{trainType}",
+      "label": "/api/v1/priceservice/prices/{routeId}/{trainType}",
+      "service": "ts-price-service",
+      "method": "GET",
+      "path": "/api/v1/priceservice/prices/{routeId}/{trainType}",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:GET /api/v1/priceservice/prices",
+      "label": "/api/v1/priceservice/prices",
+      "service": "ts-price-service",
+      "method": "GET",
+      "path": "/api/v1/priceservice/prices",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:POST /api/v1/priceservice/prices",
+      "label": "/api/v1/priceservice/prices",
+      "service": "ts-price-service",
+      "method": "POST",
+      "path": "/api/v1/priceservice/prices",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:DELETE /api/v1/priceservice/prices",
+      "label": "/api/v1/priceservice/prices",
+      "service": "ts-price-service",
+      "method": "DELETE",
+      "path": "/api/v1/priceservice/prices",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-price-service:PUT /api/v1/priceservice/prices",
+      "label": "/api/v1/priceservice/prices",
+      "service": "ts-price-service",
+      "method": "PUT",
+      "path": "/api/v1/priceservice/prices",
+      "type": "API",
+      "info": "PriceController (Java)"
+    },
+    {
+      "id": "ts-rebook-service:REQUEST /api/v1/rebookservice/api/v1/rebookservice",
+      "label": "/api/v1/rebookservice/api/v1/rebookservice",
+      "service": "ts-rebook-service",
+      "method": "REQUEST",
+      "path": "/api/v1/rebookservice/api/v1/rebookservice",
+      "type": "API",
+      "info": "RebookController (Java)"
+    },
+    {
+      "id": "ts-rebook-service:GET /api/v1/rebookservice/welcome",
+      "label": "/api/v1/rebookservice/welcome",
+      "service": "ts-rebook-service",
+      "method": "GET",
+      "path": "/api/v1/rebookservice/welcome",
+      "type": "API",
+      "info": "RebookController (Java)"
+    },
+    {
+      "id": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+      "label": "/api/v1/rebookservice/rebook/difference",
+      "service": "ts-rebook-service",
+      "method": "POST",
+      "path": "/api/v1/rebookservice/rebook/difference",
+      "type": "API",
+      "info": "RebookController (Java)"
+    },
+    {
+      "id": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+      "label": "/api/v1/rebookservice/rebook",
+      "service": "ts-rebook-service",
+      "method": "POST",
+      "path": "/api/v1/rebookservice/rebook",
+      "type": "API",
+      "info": "RebookController (Java)"
+    },
+    {
+      "id": "ts-route-plan-service:REQUEST /api/v1/routeplanservice/api/v1/routeplanservice",
+      "label": "/api/v1/routeplanservice/api/v1/routeplanservice",
+      "service": "ts-route-plan-service",
+      "method": "REQUEST",
+      "path": "/api/v1/routeplanservice/api/v1/routeplanservice",
+      "type": "API",
+      "info": "RoutePlanController (Java)"
+    },
+    {
+      "id": "ts-route-plan-service:GET /api/v1/routeplanservice/welcome",
+      "label": "/api/v1/routeplanservice/welcome",
+      "service": "ts-route-plan-service",
+      "method": "GET",
+      "path": "/api/v1/routeplanservice/welcome",
+      "type": "API",
+      "info": "RoutePlanController (Java)"
+    },
+    {
+      "id": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/cheapestRoute",
+      "label": "/api/v1/routeplanservice/routePlan/cheapestRoute",
+      "service": "ts-route-plan-service",
+      "method": "POST",
+      "path": "/api/v1/routeplanservice/routePlan/cheapestRoute",
+      "type": "API",
+      "info": "RoutePlanController (Java)"
+    },
+    {
+      "id": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/quickestRoute",
+      "label": "/api/v1/routeplanservice/routePlan/quickestRoute",
+      "service": "ts-route-plan-service",
+      "method": "POST",
+      "path": "/api/v1/routeplanservice/routePlan/quickestRoute",
+      "type": "API",
+      "info": "RoutePlanController (Java)"
+    },
+    {
+      "id": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "label": "/api/v1/routeplanservice/routePlan/minStopStations",
+      "service": "ts-route-plan-service",
+      "method": "POST",
+      "path": "/api/v1/routeplanservice/routePlan/minStopStations",
+      "type": "API",
+      "info": "RoutePlanController (Java)"
+    },
+    {
+      "id": "ts-route-service:REQUEST /api/v1/routeservice/api/v1/routeservice",
+      "label": "/api/v1/routeservice/api/v1/routeservice",
+      "service": "ts-route-service",
+      "method": "REQUEST",
+      "path": "/api/v1/routeservice/api/v1/routeservice",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:GET /api/v1/routeservice/welcome",
+      "label": "/api/v1/routeservice/welcome",
+      "service": "ts-route-service",
+      "method": "GET",
+      "path": "/api/v1/routeservice/welcome",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:POST /api/v1/routeservice/routes",
+      "label": "/api/v1/routeservice/routes",
+      "service": "ts-route-service",
+      "method": "POST",
+      "path": "/api/v1/routeservice/routes",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:DELETE /api/v1/routeservice/routes/{routeId}",
+      "label": "/api/v1/routeservice/routes/{routeId}",
+      "service": "ts-route-service",
+      "method": "DELETE",
+      "path": "/api/v1/routeservice/routes/{routeId}",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:GET /api/v1/routeservice/routes/{routeId}",
+      "label": "/api/v1/routeservice/routes/{routeId}",
+      "service": "ts-route-service",
+      "method": "GET",
+      "path": "/api/v1/routeservice/routes/{routeId}",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:GET /api/v1/routeservice/routes",
+      "label": "/api/v1/routeservice/routes",
+      "service": "ts-route-service",
+      "method": "GET",
+      "path": "/api/v1/routeservice/routes",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-route-service:GET /api/v1/routeservice/routes/{startId}/{terminalId}",
+      "label": "/api/v1/routeservice/routes/{startId}/{terminalId}",
+      "service": "ts-route-service",
+      "method": "GET",
+      "path": "/api/v1/routeservice/routes/{startId}/{terminalId}",
+      "type": "API",
+      "info": "RouteController (Java)"
+    },
+    {
+      "id": "ts-seat-service:REQUEST /api/v1/seatservice/api/v1/seatservice",
+      "label": "/api/v1/seatservice/api/v1/seatservice",
+      "service": "ts-seat-service",
+      "method": "REQUEST",
+      "path": "/api/v1/seatservice/api/v1/seatservice",
+      "type": "API",
+      "info": "SeatController (Java)"
+    },
+    {
+      "id": "ts-seat-service:GET /api/v1/seatservice/welcome",
+      "label": "/api/v1/seatservice/welcome",
+      "service": "ts-seat-service",
+      "method": "GET",
+      "path": "/api/v1/seatservice/welcome",
+      "type": "API",
+      "info": "SeatController (Java)"
+    },
+    {
+      "id": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "label": "/api/v1/seatservice/seats",
+      "service": "ts-seat-service",
+      "method": "POST",
+      "path": "/api/v1/seatservice/seats",
+      "type": "API",
+      "info": "SeatController (Java)"
+    },
+    {
+      "id": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "label": "/api/v1/seatservice/seats/left_tickets",
+      "service": "ts-seat-service",
+      "method": "POST",
+      "path": "/api/v1/seatservice/seats/left_tickets",
+      "type": "API",
+      "info": "SeatController (Java)"
+    },
+    {
+      "id": "ts-security-service:REQUEST /api/v1/securityservice/api/v1/securityservice",
+      "label": "/api/v1/securityservice/api/v1/securityservice",
+      "service": "ts-security-service",
+      "method": "REQUEST",
+      "path": "/api/v1/securityservice/api/v1/securityservice",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:GET /api/v1/securityservice/welcome",
+      "label": "/api/v1/securityservice/welcome",
+      "service": "ts-security-service",
+      "method": "GET",
+      "path": "/api/v1/securityservice/welcome",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:GET /api/v1/securityservice/securityConfigs",
+      "label": "/api/v1/securityservice/securityConfigs",
+      "service": "ts-security-service",
+      "method": "GET",
+      "path": "/api/v1/securityservice/securityConfigs",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:POST /api/v1/securityservice/securityConfigs",
+      "label": "/api/v1/securityservice/securityConfigs",
+      "service": "ts-security-service",
+      "method": "POST",
+      "path": "/api/v1/securityservice/securityConfigs",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:PUT /api/v1/securityservice/securityConfigs",
+      "label": "/api/v1/securityservice/securityConfigs",
+      "service": "ts-security-service",
+      "method": "PUT",
+      "path": "/api/v1/securityservice/securityConfigs",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:DELETE /api/v1/securityservice/securityConfigs/{id}",
+      "label": "/api/v1/securityservice/securityConfigs/{id}",
+      "service": "ts-security-service",
+      "method": "DELETE",
+      "path": "/api/v1/securityservice/securityConfigs/{id}",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-security-service:GET /api/v1/securityservice/securityConfigs/{accountId}",
+      "label": "/api/v1/securityservice/securityConfigs/{accountId}",
+      "service": "ts-security-service",
+      "method": "GET",
+      "path": "/api/v1/securityservice/securityConfigs/{accountId}",
+      "type": "API",
+      "info": "SecurityController (Java)"
+    },
+    {
+      "id": "ts-station-service:REQUEST /api/v1/stationservice/api/v1/stationservice",
+      "label": "/api/v1/stationservice/api/v1/stationservice",
+      "service": "ts-station-service",
+      "method": "REQUEST",
+      "path": "/api/v1/stationservice/api/v1/stationservice",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:GET /api/v1/stationservice/welcome",
+      "label": "/api/v1/stationservice/welcome",
+      "service": "ts-station-service",
+      "method": "GET",
+      "path": "/api/v1/stationservice/welcome",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:GET /api/v1/stationservice/stations",
+      "label": "/api/v1/stationservice/stations",
+      "service": "ts-station-service",
+      "method": "GET",
+      "path": "/api/v1/stationservice/stations",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:POST /api/v1/stationservice/stations",
+      "label": "/api/v1/stationservice/stations",
+      "service": "ts-station-service",
+      "method": "POST",
+      "path": "/api/v1/stationservice/stations",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:PUT /api/v1/stationservice/stations",
+      "label": "/api/v1/stationservice/stations",
+      "service": "ts-station-service",
+      "method": "PUT",
+      "path": "/api/v1/stationservice/stations",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:DELETE /api/v1/stationservice/stations",
+      "label": "/api/v1/stationservice/stations",
+      "service": "ts-station-service",
+      "method": "DELETE",
+      "path": "/api/v1/stationservice/stations",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:GET /api/v1/stationservice/stations/id/{stationNameForId}",
+      "label": "/api/v1/stationservice/stations/id/{stationNameForId}",
+      "service": "ts-station-service",
+      "method": "GET",
+      "path": "/api/v1/stationservice/stations/id/{stationNameForId}",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:POST /api/v1/stationservice/stations/idlist",
+      "label": "/api/v1/stationservice/stations/idlist",
+      "service": "ts-station-service",
+      "method": "POST",
+      "path": "/api/v1/stationservice/stations/idlist",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:GET /api/v1/stationservice/stations/name/{stationIdForName}",
+      "label": "/api/v1/stationservice/stations/name/{stationIdForName}",
+      "service": "ts-station-service",
+      "method": "GET",
+      "path": "/api/v1/stationservice/stations/name/{stationIdForName}",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "label": "/api/v1/stationservice/stations/namelist",
+      "service": "ts-station-service",
+      "method": "POST",
+      "path": "/api/v1/stationservice/stations/namelist",
+      "type": "API",
+      "info": "StationController (Java)"
+    },
+    {
+      "id": "ts-ticket-office-service:GET /",
+      "label": "/",
+      "service": "ts-ticket-office-service",
+      "method": "GET",
+      "path": "/",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:GET /init",
+      "label": "/init",
+      "service": "ts-ticket-office-service",
+      "method": "GET",
+      "path": "/init",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:GET /getRegionList",
+      "label": "/getRegionList",
+      "service": "ts-ticket-office-service",
+      "method": "GET",
+      "path": "/getRegionList",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:GET /getAll",
+      "label": "/getAll",
+      "service": "ts-ticket-office-service",
+      "method": "GET",
+      "path": "/getAll",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:POST /getSpecificOffices",
+      "label": "/getSpecificOffices",
+      "service": "ts-ticket-office-service",
+      "method": "POST",
+      "path": "/getSpecificOffices",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:POST /addOffice",
+      "label": "/addOffice",
+      "service": "ts-ticket-office-service",
+      "method": "POST",
+      "path": "/addOffice",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:POST /deleteOffice",
+      "label": "/deleteOffice",
+      "service": "ts-ticket-office-service",
+      "method": "POST",
+      "path": "/deleteOffice",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticket-office-service:POST /updateOffice",
+      "label": "/updateOffice",
+      "service": "ts-ticket-office-service",
+      "method": "POST",
+      "path": "/updateOffice",
+      "type": "API",
+      "info": "router.js (JS)"
+    },
+    {
+      "id": "ts-ticketinfo-service:REQUEST /api/v1/ticketinfoservice/api/v1/ticketinfoservice",
+      "label": "/api/v1/ticketinfoservice/api/v1/ticketinfoservice",
+      "service": "ts-ticketinfo-service",
+      "method": "REQUEST",
+      "path": "/api/v1/ticketinfoservice/api/v1/ticketinfoservice",
+      "type": "API",
+      "info": "TicketInfoController (Java)"
+    },
+    {
+      "id": "ts-ticketinfo-service:GET /api/v1/ticketinfoservice/welcome",
+      "label": "/api/v1/ticketinfoservice/welcome",
+      "service": "ts-ticketinfo-service",
+      "method": "GET",
+      "path": "/api/v1/ticketinfoservice/welcome",
+      "type": "API",
+      "info": "TicketInfoController (Java)"
+    },
+    {
+      "id": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "label": "/api/v1/ticketinfoservice/ticketinfo",
+      "service": "ts-ticketinfo-service",
+      "method": "POST",
+      "path": "/api/v1/ticketinfoservice/ticketinfo",
+      "type": "API",
+      "info": "TicketInfoController (Java)"
+    },
+    {
+      "id": "ts-ticketinfo-service:GET /api/v1/ticketinfoservice/ticketinfo/{name}",
+      "label": "/api/v1/ticketinfoservice/ticketinfo/{name}",
+      "service": "ts-ticketinfo-service",
+      "method": "GET",
+      "path": "/api/v1/ticketinfoservice/ticketinfo/{name}",
+      "type": "API",
+      "info": "TicketInfoController (Java)"
+    },
+    {
+      "id": "ts-train-service:REQUEST /api/v1/trainservice/api/v1/trainservice",
+      "label": "/api/v1/trainservice/api/v1/trainservice",
+      "service": "ts-train-service",
+      "method": "REQUEST",
+      "path": "/api/v1/trainservice/api/v1/trainservice",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:GET /api/v1/trainservice/trains/welcome",
+      "label": "/api/v1/trainservice/trains/welcome",
+      "service": "ts-train-service",
+      "method": "GET",
+      "path": "/api/v1/trainservice/trains/welcome",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:POST /api/v1/trainservice/trains",
+      "label": "/api/v1/trainservice/trains",
+      "service": "ts-train-service",
+      "method": "POST",
+      "path": "/api/v1/trainservice/trains",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:GET /api/v1/trainservice/trains/{id}",
+      "label": "/api/v1/trainservice/trains/{id}",
+      "service": "ts-train-service",
+      "method": "GET",
+      "path": "/api/v1/trainservice/trains/{id}",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:PUT /api/v1/trainservice/trains",
+      "label": "/api/v1/trainservice/trains",
+      "service": "ts-train-service",
+      "method": "PUT",
+      "path": "/api/v1/trainservice/trains",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:DELETE /api/v1/trainservice/trains/{id}",
+      "label": "/api/v1/trainservice/trains/{id}",
+      "service": "ts-train-service",
+      "method": "DELETE",
+      "path": "/api/v1/trainservice/trains/{id}",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-train-service:GET /api/v1/trainservice/trains",
+      "label": "/api/v1/trainservice/trains",
+      "service": "ts-train-service",
+      "method": "GET",
+      "path": "/api/v1/trainservice/trains",
+      "type": "API",
+      "info": "TrainController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:REQUEST /api/v1/travelplanservice/api/v1/travelplanservice",
+      "label": "/api/v1/travelplanservice/api/v1/travelplanservice",
+      "service": "ts-travel-plan-service",
+      "method": "REQUEST",
+      "path": "/api/v1/travelplanservice/api/v1/travelplanservice",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:GET /api/v1/travelplanservice/welcome",
+      "label": "/api/v1/travelplanservice/welcome",
+      "service": "ts-travel-plan-service",
+      "method": "GET",
+      "path": "/api/v1/travelplanservice/welcome",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/transferResult",
+      "label": "/api/v1/travelplanservice/travelPlan/transferResult",
+      "service": "ts-travel-plan-service",
+      "method": "POST",
+      "path": "/api/v1/travelplanservice/travelPlan/transferResult",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+      "label": "/api/v1/travelplanservice/travelPlan/cheapest",
+      "service": "ts-travel-plan-service",
+      "method": "POST",
+      "path": "/api/v1/travelplanservice/travelPlan/cheapest",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+      "label": "/api/v1/travelplanservice/travelPlan/quickest",
+      "service": "ts-travel-plan-service",
+      "method": "POST",
+      "path": "/api/v1/travelplanservice/travelPlan/quickest",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+      "label": "/api/v1/travelplanservice/travelPlan/minStation",
+      "service": "ts-travel-plan-service",
+      "method": "POST",
+      "path": "/api/v1/travelplanservice/travelPlan/minStation",
+      "type": "API",
+      "info": "TravelPlanController (Java)"
+    },
+    {
+      "id": "ts-travel-service:REQUEST /api/v1/travelservice/api/v1/travelservice",
+      "label": "/api/v1/travelservice/api/v1/travelservice",
+      "service": "ts-travel-service",
+      "method": "REQUEST",
+      "path": "/api/v1/travelservice/api/v1/travelservice",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/welcome",
+      "label": "/api/v1/travelservice/welcome",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/welcome",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/train_types/{tripId}",
+      "label": "/api/v1/travelservice/train_types/{tripId}",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/train_types/{tripId}",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/routes/{tripId}",
+      "label": "/api/v1/travelservice/routes/{tripId}",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/routes/{tripId}",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:POST /api/v1/travelservice/trips/routes",
+      "label": "/api/v1/travelservice/trips/routes",
+      "service": "ts-travel-service",
+      "method": "POST",
+      "path": "/api/v1/travelservice/trips/routes",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:POST /api/v1/travelservice/trips",
+      "label": "/api/v1/travelservice/trips",
+      "service": "ts-travel-service",
+      "method": "POST",
+      "path": "/api/v1/travelservice/trips",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/trips/{tripId}",
+      "label": "/api/v1/travelservice/trips/{tripId}",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/trips/{tripId}",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:PUT /api/v1/travelservice/trips",
+      "label": "/api/v1/travelservice/trips",
+      "service": "ts-travel-service",
+      "method": "PUT",
+      "path": "/api/v1/travelservice/trips",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:DELETE /api/v1/travelservice/trips/{tripId}",
+      "label": "/api/v1/travelservice/trips/{tripId}",
+      "service": "ts-travel-service",
+      "method": "DELETE",
+      "path": "/api/v1/travelservice/trips/{tripId}",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "label": "/api/v1/travelservice/trips/left",
+      "service": "ts-travel-service",
+      "method": "POST",
+      "path": "/api/v1/travelservice/trips/left",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "label": "/api/v1/travelservice/trip_detail",
+      "service": "ts-travel-service",
+      "method": "POST",
+      "path": "/api/v1/travelservice/trip_detail",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/trips",
+      "label": "/api/v1/travelservice/trips",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/trips",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel-service:GET /api/v1/travelservice/admin_trip",
+      "label": "/api/v1/travelservice/admin_trip",
+      "service": "ts-travel-service",
+      "method": "GET",
+      "path": "/api/v1/travelservice/admin_trip",
+      "type": "API",
+      "info": "TravelController (Java)"
+    },
+    {
+      "id": "ts-travel2-service:REQUEST /api/v1/travel2service/api/v1/travel2service",
+      "label": "/api/v1/travel2service/api/v1/travel2service",
+      "service": "ts-travel2-service",
+      "method": "REQUEST",
+      "path": "/api/v1/travel2service/api/v1/travel2service",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/welcome",
+      "label": "/api/v1/travel2service/welcome",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/welcome",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/train_types/{tripId}",
+      "label": "/api/v1/travel2service/train_types/{tripId}",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/train_types/{tripId}",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/routes/{tripId}",
+      "label": "/api/v1/travel2service/routes/{tripId}",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/routes/{tripId}",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:POST /api/v1/travel2service/trips/routes",
+      "label": "/api/v1/travel2service/trips/routes",
+      "service": "ts-travel2-service",
+      "method": "POST",
+      "path": "/api/v1/travel2service/trips/routes",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:POST /api/v1/travel2service/trips",
+      "label": "/api/v1/travel2service/trips",
+      "service": "ts-travel2-service",
+      "method": "POST",
+      "path": "/api/v1/travel2service/trips",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/trips/{tripId}",
+      "label": "/api/v1/travel2service/trips/{tripId}",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/trips/{tripId}",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:PUT /api/v1/travel2service/trips",
+      "label": "/api/v1/travel2service/trips",
+      "service": "ts-travel2-service",
+      "method": "PUT",
+      "path": "/api/v1/travel2service/trips",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:DELETE /api/v1/travel2service/trips/{tripId}",
+      "label": "/api/v1/travel2service/trips/{tripId}",
+      "service": "ts-travel2-service",
+      "method": "DELETE",
+      "path": "/api/v1/travel2service/trips/{tripId}",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "label": "/api/v1/travel2service/trips/left",
+      "service": "ts-travel2-service",
+      "method": "POST",
+      "path": "/api/v1/travel2service/trips/left",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "label": "/api/v1/travel2service/trip_detail",
+      "service": "ts-travel2-service",
+      "method": "POST",
+      "path": "/api/v1/travel2service/trip_detail",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/trips",
+      "label": "/api/v1/travel2service/trips",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/trips",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-travel2-service:GET /api/v1/travel2service/admin_trip",
+      "label": "/api/v1/travel2service/admin_trip",
+      "service": "ts-travel2-service",
+      "method": "GET",
+      "path": "/api/v1/travel2service/admin_trip",
+      "type": "API",
+      "info": "Travel2Controller (Java)"
+    },
+    {
+      "id": "ts-user-service:REQUEST /api/v1/userservice/users/api/v1/userservice/users",
+      "label": "/api/v1/userservice/users/api/v1/userservice/users",
+      "service": "ts-user-service",
+      "method": "REQUEST",
+      "path": "/api/v1/userservice/users/api/v1/userservice/users",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-user-service:GET /api/v1/userservice/users/hello",
+      "label": "/api/v1/userservice/users/hello",
+      "service": "ts-user-service",
+      "method": "GET",
+      "path": "/api/v1/userservice/users/hello",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-user-service:GET /api/v1/userservice/users/{userName}",
+      "label": "/api/v1/userservice/users/{userName}",
+      "service": "ts-user-service",
+      "method": "GET",
+      "path": "/api/v1/userservice/users/{userName}",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-user-service:GET /api/v1/userservice/users/id/{userId}",
+      "label": "/api/v1/userservice/users/id/{userId}",
+      "service": "ts-user-service",
+      "method": "GET",
+      "path": "/api/v1/userservice/users/id/{userId}",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-user-service:POST /api/v1/userservice/users/register",
+      "label": "/api/v1/userservice/users/register",
+      "service": "ts-user-service",
+      "method": "POST",
+      "path": "/api/v1/userservice/users/register",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-user-service:DELETE /api/v1/userservice/users/{userId}",
+      "label": "/api/v1/userservice/users/{userId}",
+      "service": "ts-user-service",
+      "method": "DELETE",
+      "path": "/api/v1/userservice/users/{userId}",
+      "type": "API",
+      "info": "UserController (Java)"
+    },
+    {
+      "id": "ts-verification-code-service:REQUEST /api/v1/verifycode/api/v1/verifycode",
+      "label": "/api/v1/verifycode/api/v1/verifycode",
+      "service": "ts-verification-code-service",
+      "method": "REQUEST",
+      "path": "/api/v1/verifycode/api/v1/verifycode",
+      "type": "API",
+      "info": "VerifyCodeController (Java)"
+    },
+    {
+      "id": "ts-verification-code-service:GET /api/v1/verifycode/generate",
+      "label": "/api/v1/verifycode/generate",
+      "service": "ts-verification-code-service",
+      "method": "GET",
+      "path": "/api/v1/verifycode/generate",
+      "type": "API",
+      "info": "VerifyCodeController (Java)"
+    },
+    {
+      "id": "ts-verification-code-service:GET /api/v1/verifycode/verify/{verifyCode}",
+      "label": "/api/v1/verifycode/verify/{verifyCode}",
+      "service": "ts-verification-code-service",
+      "method": "GET",
+      "path": "/api/v1/verifycode/verify/{verifyCode}",
+      "type": "API",
+      "info": "VerifyCodeController (Java)"
+    },
+    {
+      "id": "ts-voucher-service:API /getVoucher",
+      "label": "/getVoucher",
+      "service": "ts-voucher-service",
+      "method": "API",
+      "path": "/getVoucher",
+      "type": "API",
+      "info": "GetVoucherHandler (Python)"
+    }
+  ],
+  "links": [
+    {
+      "source": "ts-admin-route-service:GET /api/v1/adminrouteservice/adminroute",
+      "target": "ts-route-service:POST /api/v1/routeservice/routes",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-admin-route-service:POST /api/v1/adminrouteservice/adminroute",
+      "target": "ts-route-service:POST /api/v1/routeservice/routes",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-admin-route-service:DELETE /api/v1/adminrouteservice/adminroute/{routeId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-auth-service:POST /api/v1/users/login",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-basic-service:POST /api/v1/basicservice/basic/travel",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-basic-service:GET /api/v1/basicservice/basic/{stationName}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/refound/{orderId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "target": "ts-order-service:POST /api/v1/orderservice/order",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "target": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "target": "ts-notification-service:POST /api/v1/notifyservice/notification/order_cancel_success",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-cancel-service:GET /api/v1/cancelservice/cancel/{orderId}/{loginId}",
+      "target": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-consign-service:POST /api/v1/consignservice/consigns",
+      "target": "ts-consign-price-service:POST /api/v1/consignpriceservice/consignprice",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-consign-service:PUT /api/v1/consignservice/consigns",
+      "target": "ts-consign-price-service:POST /api/v1/consignpriceservice/consignprice",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-food-service:GET /api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "target": "ts-food-map-service:GET /api/v1/foodmapservice/trainfoods",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-food-service:GET /api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-food-service:GET /api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "target": "ts-food-map-service:GET /api/v1/foodmapservice/foodstores",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment",
+      "target": "ts-payment-service:POST /api/v1/paymentservice/payment",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+      "target": "ts-payment-service:POST /api/v1/paymentservice/payment",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/refresh",
+      "target": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-order-service:POST /api/v1/orderservice/order/refresh",
+      "target": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-contacts-service:GET /api/v1/contactservice/contacts",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-assurance-service:GET /api/v1/assuranceservice/assurances",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-food-service:GET /api/v1/foodservice/orders",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-consign-service:POST /api/v1/consignservice/consigns",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+      "target": "ts-notification-service:POST /api/v1/notifyservice/notification/preserve_success",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-contacts-service:GET /api/v1/contactservice/contacts",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-order-service:POST /api/v1/orderservice/order",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-assurance-service:GET /api/v1/assuranceservice/assurances",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-food-service:GET /api/v1/foodservice/orders",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-consign-service:POST /api/v1/consignservice/consigns",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+      "target": "ts-notification-service:POST /api/v1/notifyservice/notification/preserve_success",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/cheapestRoute",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/cheapestRoute",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/quickestRoute",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/quickestRoute",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trips/routes",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trips/routes",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "target": "ts-order-service:POST /api/v1/orderservice/order/tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats",
+      "target": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "target": "ts-order-service:POST /api/v1/orderservice/order/tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "target": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "target": "ts-config-service:GET /api/v1/configservice/configs",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-security-service:GET /api/v1/securityservice/securityConfigs/{accountId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "target": "ts-basic-service:POST /api/v1/basicservice/basic/travel",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-ticketinfo-service:GET /api/v1/ticketinfoservice/ticketinfo/{name}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/transferResult",
+      "target": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/transferResult",
+      "target": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+      "target": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/cheapestRoute",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+      "target": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+      "target": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+      "target": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/quickestRoute",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+      "target": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+      "target": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+      "target": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+      "target": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+      "target": "ts-seat-service:POST /api/v1/seatservice/seats/left_tickets",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:GET /api/v1/travelservice/train_types/{tripId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:GET /api/v1/travelservice/routes/{tripId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:GET /api/v1/travel2service/train_types/{tripId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:GET /api/v1/travel2service/routes/{tripId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+      "target": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-user-service:POST /api/v1/userservice/users/register",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "ts-user-service:DELETE /api/v1/userservice/users/{userId}",
+      "target": "ts-news-service:API /",
+      "relation": "HTTP_CALL",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-auth-service:POST /api/v1/users/login",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-order-service:GET /api/v1/adminorderservice/adminorder",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-news-service:API /",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-consign-service:POST /api/v1/consignservice/consigns",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-voucher-service:API /getVoucher",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/stations",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-route-service:GET /api/v1/adminrouteservice/adminroute",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/trains",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-travel-service:GET /api/v1/admintravelservice/admintravel",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/configs",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/prices",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-contacts-service:GET /api/v1/contactservice/contacts",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/types",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    },
+    {
+      "source": "USER / UI",
+      "target": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/contacts",
+      "relation": "CALLED_BY_UI",
+      "type": "SYNTHESIZED"
+    }
+  ]
+}

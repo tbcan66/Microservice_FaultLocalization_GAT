@@ -1,0 +1,1021 @@
+{
+  "nodes": [
+    {
+      "id": "ts-admin-basic-info-service",
+      "label": "ts-admin-basic-info-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-admin-order-service",
+      "label": "ts-admin-order-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-admin-route-service",
+      "label": "ts-admin-route-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-admin-travel-service",
+      "label": "ts-admin-travel-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-admin-user-service",
+      "label": "ts-admin-user-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-assurance-service",
+      "label": "ts-assurance-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-auth-service",
+      "label": "ts-auth-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-basic-service",
+      "label": "ts-basic-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-cancel-service",
+      "label": "ts-cancel-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-config-service",
+      "label": "ts-config-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-consign-price-service",
+      "label": "ts-consign-price-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-consign-service",
+      "label": "ts-consign-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-contacts-service",
+      "label": "ts-contacts-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-execute-service",
+      "label": "ts-execute-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-food-map-service",
+      "label": "ts-food-map-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-food-service",
+      "label": "ts-food-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-inside-payment-service",
+      "label": "ts-inside-payment-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-news-service",
+      "label": "ts-news-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-notification-service",
+      "label": "ts-notification-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-order-other-service",
+      "label": "ts-order-other-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-order-service",
+      "label": "ts-order-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-payment-service",
+      "label": "ts-payment-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-preserve-other-service",
+      "label": "ts-preserve-other-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-preserve-service",
+      "label": "ts-preserve-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-price-service",
+      "label": "ts-price-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-rebook-service",
+      "label": "ts-rebook-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-route-plan-service",
+      "label": "ts-route-plan-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-route-service",
+      "label": "ts-route-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-seat-service",
+      "label": "ts-seat-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-security-service",
+      "label": "ts-security-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-station-service",
+      "label": "ts-station-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-ticket-office-service",
+      "label": "ts-ticket-office-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-ticketinfo-service",
+      "label": "ts-ticketinfo-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-train-service",
+      "label": "ts-train-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-travel-plan-service",
+      "label": "ts-travel-plan-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-travel-service",
+      "label": "ts-travel-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-travel2-service",
+      "label": "ts-travel2-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-ui-dashboard",
+      "label": "ts-ui-dashboard",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-user-service",
+      "label": "ts-user-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-verification-code-service",
+      "label": "ts-verification-code-service",
+      "type": "SERVICE"
+    },
+    {
+      "id": "ts-voucher-service",
+      "label": "ts-voucher-service",
+      "type": "SERVICE"
+    }
+  ],
+  "links": [
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-security-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-consign-service",
+      "target": "ts-consign-price-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-execute-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-auth-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-consign-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-basic-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-inside-payment-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-execute-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-config-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-execute-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-food-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-assurance-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-payment-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-ticket-office-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-user-service",
+      "target": "ts-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-notification-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-payment-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-inside-payment-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-basic-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-train-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-verification-code-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-security-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-auth-service",
+      "target": "ts-verification-code-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-food-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-price-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-voucher-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-route-service",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-notification-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-route-plan-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-voucher-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-auth-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-contacts-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-config-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-admin-basic-info-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-train-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-security-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-rebook-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-auth-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-consign-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-notification-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-cancel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-consign-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-preserve-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-assurance-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-config-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-train-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-user-service",
+      "target": "ts-auth-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-assurance-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-security-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-route-plan-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ticketinfo-service",
+      "target": "ts-basic-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-price-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-notification-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-food-map-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-contacts-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-news-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-inside-payment-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-voucher-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-price-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-preserve-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-food-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-order-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-contacts-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-train-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-order-other-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-station-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-security-service",
+      "target": "ts-order-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-train-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-ticketinfo-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-order-other-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-seat-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-travel-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-user-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-travel-plan-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-ui-dashboard",
+      "target": "ts-travel2-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-route-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-contacts-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-auth-service",
+      "relation": "CALLS",
+      "type": "Level 1 Call"
+    }
+  ]
+}

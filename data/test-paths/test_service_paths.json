@@ -1,0 +1,5873 @@
+[
+  {
+    "test_id": "ts-auth-service:LoginUserTest.testLoginUserTestCorrectObject",
+    "test_method": "testLoginUserTestCorrectObject",
+    "test_class": "LoginUserTest",
+    "test_file": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-auth-service",
+    "calls": [],
+    "path": [
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-auth-service:LoginUserTest.testLoginUserTestUserNotInRepository",
+    "test_method": "testLoginUserTestUserNotInRepository",
+    "test_class": "LoginUserTest",
+    "test_file": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-auth-service",
+    "calls": [],
+    "path": [
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-auth-service:LoginUserTest.testLoginUserTestUsernamePasswordIncorrect",
+    "test_method": "testLoginUserTestUsernamePasswordIncorrect",
+    "test_class": "LoginUserTest",
+    "test_file": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-auth-service",
+    "calls": [],
+    "path": [
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-auth-service:LoginUserTest.testLoginUserTestVerifyCodeInvalid",
+    "test_method": "testLoginUserTestVerifyCodeInvalid",
+    "test_class": "LoginUserTest",
+    "test_file": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-auth-service",
+    "calls": [],
+    "path": [
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-auth-service:LoginUserTest.testLoginUserTestServiceUnavailable",
+    "test_method": "testLoginUserTestServiceUnavailable",
+    "test_class": "LoginUserTest",
+    "test_file": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-auth-service",
+    "calls": [],
+    "path": [
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.testQueryForTravelValidObject",
+    "test_method": "testQueryForTravelValidObject",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "PASSING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingPlaceNames",
+    "test_method": "testQueryForTravelNotExistingPlaceNames",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "PASSING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.FAILING_testQueryForTravelNotExistingTrainType",
+    "test_method": "FAILING_testQueryForTravelNotExistingTrainType",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "FAILING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F13a",
+    "faulty_service": "ts-basic-service"
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingRoute",
+    "test_method": "testQueryForTravelNotExistingRoute",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "PASSING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingPriceConfig",
+    "test_method": "testQueryForTravelNotExistingPriceConfig",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "PASSING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-basic-service:QueryForTravelTest.testQueryForTravelUnavailableService",
+    "test_method": "testQueryForTravelUnavailableService",
+    "test_class": "QueryForTravelTest",
+    "test_file": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java",
+    "status": "PASSING",
+    "source_service": "ts-basic-service",
+    "calls": [
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-basic-service",
+      "ts-station-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNotPaidFromOrderService",
+    "test_method": "testCalculateRefundNotPaidFromOrderService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundPaidFromOrderService",
+    "test_method": "testCalculateRefundPaidFromOrderService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundDifferentStatusFromOrderService",
+    "test_method": "testCalculateRefundDifferentStatusFromOrderService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNotPaidFromOrderOtherService",
+    "test_method": "testCalculateRefundNotPaidFromOrderOtherService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundPaidFromOrderOtherService",
+    "test_method": "testCalculateRefundPaidFromOrderOtherService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundDifferentStatusFromOrderOtherService",
+    "test_method": "testCalculateRefundDifferentStatusFromOrderOtherService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNonExistingId",
+    "test_method": "testCalculateRefundNonExistingId",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CalculateRefundTest.testCalculateRefundUnavailableService",
+    "test_method": "testCalculateRefundUnavailableService",
+    "test_class": "CalculateRefundTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidSuccessFromOrderService",
+    "test_method": "testCancelOrderNotPaidSuccessFromOrderService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderDifferentStatusFromOrderService",
+    "test_method": "testCancelOrderDifferentStatusFromOrderService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderDifferentStatusFromOrderOtherService",
+    "test_method": "testCancelOrderDifferentStatusFromOrderOtherService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidSuccessFromOrderOtherService",
+    "test_method": "testCancelOrderNotPaidSuccessFromOrderOtherService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidWrongUserInfoFromOrderService",
+    "test_method": "testCancelOrderNotPaidWrongUserInfoFromOrderService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderNonExistingId",
+    "test_method": "testCancelOrderNonExistingId",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-cancel-service:CancelOrderTest.testCancelOrderUnavailableService",
+    "test_method": "testCancelOrderUnavailableService",
+    "test_class": "CancelOrderTest",
+    "test_file": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java",
+    "status": "PASSING",
+    "source_service": "ts-cancel-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "path": [
+      "ts-cancel-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:InsertConsignTest.testInsertConsignTestCorrectObject",
+    "test_method": "testInsertConsignTestCorrectObject",
+    "test_class": "InsertConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/post/InsertConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:InsertConsignTest.testInsertConsignTestServiceUnavailable",
+    "test_method": "testInsertConsignTestServiceUnavailable",
+    "test_class": "InsertConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/post/InsertConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:UpdateConsignTest.testUpdateConsignCorrectObjectSameWeight",
+    "test_method": "testUpdateConsignCorrectObjectSameWeight",
+    "test_class": "UpdateConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:UpdateConsignTest.testUpdateConsignCorrectObjectDifferentWeight",
+    "test_method": "testUpdateConsignCorrectObjectDifferentWeight",
+    "test_class": "UpdateConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:UpdateConsignTest.testUpdateConsignConsignIdNotExists",
+    "test_method": "testUpdateConsignConsignIdNotExists",
+    "test_class": "UpdateConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:UpdateConsignTest.testUpdateConsignEdgeCaseWeightAndPrice",
+    "test_method": "testUpdateConsignEdgeCaseWeightAndPrice",
+    "test_class": "UpdateConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-consign-service:UpdateConsignTest.testUpdateConsignServiceUnavailable",
+    "test_method": "testUpdateConsignServiceUnavailable",
+    "test_class": "UpdateConsignTest",
+    "test_file": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java",
+    "status": "PASSING",
+    "source_service": "ts-consign-service",
+    "calls": [
+      "ts-consign-price-service"
+    ],
+    "path": [
+      "ts-consign-service",
+      "ts-consign-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketCollectTest.testTicketCollectCorrectIdOrderService",
+    "test_method": "testTicketCollectCorrectIdOrderService",
+    "test_class": "TicketCollectTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [],
+    "path": [
+      "ts-execute-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketCollectTest.testTicketCollectCorrectIdOrderOtherService",
+    "test_method": "testTicketCollectCorrectIdOrderOtherService",
+    "test_class": "TicketCollectTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [],
+    "path": [
+      "ts-execute-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketCollectTest.testTicketCollectIdNotExists",
+    "test_method": "testTicketCollectIdNotExists",
+    "test_class": "TicketCollectTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [],
+    "path": [
+      "ts-execute-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketCollectTest.testTicketCollectServiceUnavailable",
+    "test_method": "testTicketCollectServiceUnavailable",
+    "test_class": "TicketCollectTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [],
+    "path": [
+      "ts-execute-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketExecuteTest.testTicketExecuteCorrectIdOrderService",
+    "test_method": "testTicketExecuteCorrectIdOrderService",
+    "test_class": "TicketExecuteTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-execute-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketExecuteTest.testTicketExecuteCorrectIdOrderOtherService",
+    "test_method": "testTicketExecuteCorrectIdOrderOtherService",
+    "test_class": "TicketExecuteTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-execute-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketExecuteTest.testTicketExecuteIdNotExists",
+    "test_method": "testTicketExecuteIdNotExists",
+    "test_class": "TicketExecuteTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-execute-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-execute-service:TicketExecuteTest.testTicketExecuteServiceUnavailable",
+    "test_method": "testTicketExecuteServiceUnavailable",
+    "test_class": "TicketExecuteTest",
+    "test_file": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java",
+    "status": "PASSING",
+    "source_service": "ts-execute-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-execute-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-food-service:GetAllFoodTest.testGetAllFoodCorrectObject",
+    "test_method": "testGetAllFoodCorrectObject",
+    "test_class": "GetAllFoodTest",
+    "test_file": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java",
+    "status": "PASSING",
+    "source_service": "ts-food-service",
+    "calls": [
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "path": [
+      "ts-food-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-food-service:GetAllFoodTest.testGetAllFoodStationsNotFound",
+    "test_method": "testGetAllFoodStationsNotFound",
+    "test_class": "GetAllFoodTest",
+    "test_file": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java",
+    "status": "PASSING",
+    "source_service": "ts-food-service",
+    "calls": [
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "path": [
+      "ts-food-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-food-service:GetAllFoodTest.testGetAllNoRouteFound",
+    "test_method": "testGetAllNoRouteFound",
+    "test_class": "GetAllFoodTest",
+    "test_file": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java",
+    "status": "PASSING",
+    "source_service": "ts-food-service",
+    "calls": [
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "path": [
+      "ts-food-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-food-service:GetAllFoodTest.testGetAllFoodServiceUnavailable",
+    "test_method": "testGetAllFoodServiceUnavailable",
+    "test_class": "GetAllFoodTest",
+    "test_file": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java",
+    "status": "PASSING",
+    "source_service": "ts-food-service",
+    "calls": [
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "path": [
+      "ts-food-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-food-map-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayDifferenceTest.testPayDifferenceCorrectObject",
+    "test_method": "testPayDifferenceCorrectObject",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayDifferenceTest.FAILING_testPayDifferenceDuplicatePayment",
+    "test_method": "FAILING_testPayDifferenceDuplicatePayment",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java",
+    "status": "FAILING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service"
+    ],
+    "related_issue": "F14",
+    "faulty_service": "ts-inside-payment-service"
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayDifferenceTest.FAILING_testPayDifferenceNegativePrice",
+    "test_method": "FAILING_testPayDifferenceNegativePrice",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java",
+    "status": "FAILING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service"
+    ],
+    "related_issue": "F14",
+    "faulty_service": "ts-inside-payment-service"
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayDifferenceTest.testPayDifferenceUnavailableService",
+    "test_method": "testPayDifferenceUnavailableService",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayTest.testPayCorrectObjectOrderService",
+    "test_method": "testPayCorrectObjectOrderService",
+    "test_class": "PayTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayTest.testPayCorrectObjectOrderOtherService",
+    "test_method": "testPayCorrectObjectOrderOtherService",
+    "test_class": "PayTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayTest.testPayOrderNotFound",
+    "test_method": "testPayOrderNotFound",
+    "test_class": "PayTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayTest.FAILING_testPayNegativePrice",
+    "test_method": "FAILING_testPayNegativePrice",
+    "test_class": "PayTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-inside-payment-service:PayTest.testPayUnavailableService",
+    "test_method": "testPayUnavailableService",
+    "test_class": "PayTest",
+    "test_file": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java",
+    "status": "PASSING",
+    "source_service": "ts-inside-payment-service",
+    "calls": [
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-inside-payment-service",
+      "ts-payment-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshCorrectObject",
+    "test_method": "testQueryOrdersForRefreshCorrectObject",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-other-service",
+    "calls": [],
+    "path": [
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshNoOrdersFound",
+    "test_method": "testQueryOrdersForRefreshNoOrdersFound",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-other-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-other-service",
+      "ts-station-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-other-service:QueryOrdersForRefreshTest.FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "test_method": "FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "FAILING",
+    "source_service": "ts-order-other-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-other-service",
+      "ts-station-service"
+    ],
+    "related_issue": "F20b",
+    "faulty_service": "ts-order-other-service"
+  },
+  {
+    "test_id": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshServiceUnavailable",
+    "test_method": "testQueryOrdersForRefreshServiceUnavailable",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-other-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-other-service",
+      "ts-station-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshCorrectObject",
+    "test_method": "testQueryOrdersForRefreshCorrectObject",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-service",
+    "calls": [],
+    "path": [
+      "ts-order-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshNoOrdersFound",
+    "test_method": "testQueryOrdersForRefreshNoOrdersFound",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-service",
+      "ts-station-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-order-service:QueryOrdersForRefreshTest.FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "test_method": "FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "FAILING",
+    "source_service": "ts-order-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-service",
+      "ts-station-service"
+    ],
+    "related_issue": "F20a",
+    "faulty_service": "ts-order-service"
+  },
+  {
+    "test_id": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshServiceUnavailable",
+    "test_method": "testQueryOrdersForRefreshServiceUnavailable",
+    "test_class": "QueryOrdersForRefreshTest",
+    "test_file": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java",
+    "status": "PASSING",
+    "source_service": "ts-order-service",
+    "calls": [
+      "ts-station-service"
+    ],
+    "path": [
+      "ts-order-service",
+      "ts-station-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.FAILING_testPreserveAssuranceInvalid",
+    "test_method": "FAILING_testPreserveAssuranceInvalid",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "FAILING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-assurance-service"
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "test_method": "FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F16b",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveAccountIdInvalidFormat",
+    "test_method": "testPreserveAccountIdInvalidFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveAccountIdNonExisting",
+    "test_method": "testPreserveAccountIdNonExisting",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveContactsIdInvalidFormat",
+    "test_method": "testPreserveContactsIdInvalidFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveContactsIdNonExisting",
+    "test_method": "testPreserveContactsIdNonExisting",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveTripIdWrongFormat",
+    "test_method": "testPreserveTripIdWrongFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveSeatTypeInvalid",
+    "test_method": "testPreserveSeatTypeInvalid",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.FAILING_testPreserveSeatTooFewSeats",
+    "test_method": "FAILING_testPreserveSeatTooFewSeats",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "FAILING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-seat-service"
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveDateInvalidDate",
+    "test_method": "testPreserveDateInvalidDate",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveFromToInvalidName",
+    "test_method": "testPreserveFromToInvalidName",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveNoRoute",
+    "test_method": "testPreserveNoRoute",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveEmailError",
+    "test_method": "testPreserveEmailError",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-other-service:PreserveTest.testPreserveUnavailableService",
+    "test_method": "testPreserveUnavailableService",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-other-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-other-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.FAILING_testPreserveAssuranceInvalid",
+    "test_method": "FAILING_testPreserveAssuranceInvalid",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "FAILING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-assurance-service"
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "test_method": "FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F16a",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveAccountIdInvalidFormat",
+    "test_method": "testPreserveAccountIdInvalidFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveAccountIdNonExisting",
+    "test_method": "testPreserveAccountIdNonExisting",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveContactsIdInvalidFormat",
+    "test_method": "testPreserveContactsIdInvalidFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveContactsIdNonExisting",
+    "test_method": "testPreserveContactsIdNonExisting",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveTripIdWrongFormat",
+    "test_method": "testPreserveTripIdWrongFormat",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveSeatTypeInvalid",
+    "test_method": "testPreserveSeatTypeInvalid",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.FAILING_testPreserveSeatTooFewSeats",
+    "test_method": "FAILING_testPreserveSeatTooFewSeats",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "FAILING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-seat-service"
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveDateInvalidDate",
+    "test_method": "testPreserveDateInvalidDate",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveFromToInvalidName",
+    "test_method": "testPreserveFromToInvalidName",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveNoRoute",
+    "test_method": "testPreserveNoRoute",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveEmailError",
+    "test_method": "testPreserveEmailError",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-preserve-service:PreserveTest.testPreserveUnavailableService",
+    "test_method": "testPreserveUnavailableService",
+    "test_class": "PreserveTest",
+    "test_file": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java",
+    "status": "PASSING",
+    "source_service": "ts-preserve-service",
+    "calls": [
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-preserve-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel-service",
+      "ts-assurance-service",
+      "ts-consign-service",
+      "ts-food-service",
+      "ts-contacts-service",
+      "ts-security-service",
+      "ts-user-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-consign-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.FAILING_testPayDifferenceCorrectObject",
+    "test_method": "FAILING_testPayDifferenceCorrectObject",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "FAILING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-rebook-service"
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.FAILING_testPayDifferencePaymentFailed",
+    "test_method": "FAILING_testPayDifferencePaymentFailed",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "FAILING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-inside-payment-service"
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceLoginIdNonExisting",
+    "test_method": "testPayDifferenceLoginIdNonExisting",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceOrderIdNonExisting",
+    "test_method": "testPayDifferenceOrderIdNonExisting",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceTripIdNonExisting",
+    "test_method": "testPayDifferenceTripIdNonExisting",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceTripIdSameType",
+    "test_method": "testPayDifferenceTripIdSameType",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceSeatTypeInvalid",
+    "test_method": "testPayDifferenceSeatTypeInvalid",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceNegativeDifference",
+    "test_method": "testPayDifferenceNegativeDifference",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceLoginIdWrongFormat",
+    "test_method": "testPayDifferenceLoginIdWrongFormat",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceOrderIdWrongFormat",
+    "test_method": "testPayDifferenceOrderIdWrongFormat",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:PayDifferenceTest.testPayDifferenceUnavailableService",
+    "test_method": "testPayDifferenceUnavailableService",
+    "test_class": "PayDifferenceTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [],
+    "path": [
+      "ts-rebook-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.FAILING_testRebookCorrectObject",
+    "test_method": "FAILING_testRebookCorrectObject",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "FAILING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F24",
+    "faulty_service": "ts-rebook-service"
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookCantPayDifference",
+    "test_method": "testRebookCantPayDifference",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.FAILING_testRebookLoginIdNonExisting",
+    "test_method": "FAILING_testRebookLoginIdNonExisting",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "FAILING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F4e",
+    "faulty_service": "ts-inside-payment-service"
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookOrderIdNonExisting",
+    "test_method": "testRebookOrderIdNonExisting",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookTripIdNonExisting",
+    "test_method": "testRebookTripIdNonExisting",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookTripIdSameType",
+    "test_method": "testRebookTripIdSameType",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.FAILING_testRebookTooFewSeats",
+    "test_method": "FAILING_testRebookTooFewSeats",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "FAILING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": "ts-seat-service"
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookSeatTypeInvalid",
+    "test_method": "testRebookSeatTypeInvalid",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookDateMoreThan2Hours",
+    "test_method": "testRebookDateMoreThan2Hours",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookLoginIdWrongFormat",
+    "test_method": "testRebookLoginIdWrongFormat",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookOrderIdWrongFormat",
+    "test_method": "testRebookOrderIdWrongFormat",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-rebook-service:RebookTest.testRebookUnavailableService",
+    "test_method": "testRebookUnavailableService",
+    "test_class": "RebookTest",
+    "test_file": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java",
+    "status": "PASSING",
+    "source_service": "ts-rebook-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-rebook-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-inside-payment-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-travel-service",
+      "ts-price-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultNoTrips",
+    "test_method": "testSearchCheapestResultNoTrips",
+    "test_class": "SearchCheapestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultCorrectObject",
+    "test_method": "testSearchCheapestResultCorrectObject",
+    "test_class": "SearchCheapestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultServiceUnavailable",
+    "test_method": "testSearchCheapestResultServiceUnavailable",
+    "test_class": "SearchCheapestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsNoTrips",
+    "test_method": "testSearchMinStopStationsNoTrips",
+    "test_class": "SearchMinStopStationsTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsCorrectObject",
+    "test_method": "testSearchMinStopStationsCorrectObject",
+    "test_class": "SearchMinStopStationsTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsServiceUnavailable",
+    "test_method": "testSearchMinStopStationsServiceUnavailable",
+    "test_class": "SearchMinStopStationsTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultNoTrips",
+    "test_method": "testSearchQuickestResultNoTrips",
+    "test_class": "SearchQuickestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultCorrectObject",
+    "test_method": "testSearchQuickestResultCorrectObject",
+    "test_class": "SearchQuickestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultServiceUnavailable",
+    "test_method": "testSearchQuickestResultServiceUnavailable",
+    "test_class": "SearchQuickestResultTest",
+    "test_file": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java",
+    "status": "PASSING",
+    "source_service": "ts-route-plan-service",
+    "calls": [
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "path": [
+      "ts-route-plan-service",
+      "ts-travel-service",
+      "ts-travel2-service",
+      "ts-station-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-order-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-price-service",
+      "ts-config-service",
+      "ts-seat-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberG",
+    "test_method": "testDistributeSeatTrainNumberG",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-service",
+      "ts-route-service",
+      "ts-travel-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-travel-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberNotG",
+    "test_method": "testDistributeSeatTrainNumberNotG",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatStartStationDestStationNonExisting",
+    "test_method": "testDistributeSeatStartStationDestStationNonExisting",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberNonExisting",
+    "test_method": "testDistributeSeatTrainNumberNonExisting",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatSeatTypeOutOfRange",
+    "test_method": "testDistributeSeatSeatTypeOutOfRange",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-other-service",
+      "ts-route-service",
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:DistributeSeatTest.testDistributeSeatUnavailableService",
+    "test_method": "testDistributeSeatUnavailableService",
+    "test_class": "DistributeSeatTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [
+      "ts-order-service",
+      "ts-travel-service",
+      "ts-train-service",
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-travel-service",
+      "ts-train-service",
+      "ts-route-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberG",
+    "test_method": "testGetLeftTicketOfIntervalTrainNumberG",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberNotGOrD",
+    "test_method": "testGetLeftTicketOfIntervalTrainNumberNotGOrD",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalStartStationDestStationNonExisting",
+    "test_method": "testGetLeftTicketOfIntervalStartStationDestStationNonExisting",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberNonExisting",
+    "test_method": "testGetLeftTicketOfIntervalTrainNumberNonExisting",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalSeatTypeOutOfRange",
+    "test_method": "testGetLeftTicketOfIntervalSeatTypeOutOfRange",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalServiceUnavailable",
+    "test_method": "testGetLeftTicketOfIntervalServiceUnavailable",
+    "test_class": "GetLeftTicketOfIntervalTest",
+    "test_file": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java",
+    "status": "PASSING",
+    "source_service": "ts-seat-service",
+    "calls": [],
+    "path": [
+      "ts-seat-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckCorrectId",
+    "test_method": "testCheckCorrectId",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckMultipleIds",
+    "test_method": "testCheckMultipleIds",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckNonExistingId",
+    "test_method": "testCheckNonExistingId",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckTooHighValues",
+    "test_method": "testCheckTooHighValues",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckInvalidId",
+    "test_method": "testCheckInvalidId",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckNonExistingSecurityConfigs",
+    "test_method": "testCheckNonExistingSecurityConfigs",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-security-service:CheckAccountIdTest.testCheckUnavailableService",
+    "test_method": "testCheckUnavailableService",
+    "test_class": "CheckAccountIdTest",
+    "test_file": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-security-service",
+    "calls": [
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "path": [
+      "ts-security-service",
+      "ts-order-service",
+      "ts-order-other-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetCheapestTest.FAILING_testGetCheapestFullyValidRequestBody",
+    "test_method": "FAILING_testGetCheapestFullyValidRequestBody",
+    "test_class": "GetCheapestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetCheapestTest.testGetQuickestFullyValidRequestBody",
+    "test_method": "testGetQuickestFullyValidRequestBody",
+    "test_class": "GetCheapestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetCheapestTest.testGetCheapestNoStationsExist",
+    "test_method": "testGetCheapestNoStationsExist",
+    "test_class": "GetCheapestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetCheapestTest.testGetCheapestDepartureTimeFromPast",
+    "test_method": "testGetCheapestDepartureTimeFromPast",
+    "test_class": "GetCheapestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetCheapestTest.testGetCheapestUnavailableService",
+    "test_method": "testGetCheapestUnavailableService",
+    "test_class": "GetCheapestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetMinStationTest.FAILING_testGetMinStationFullyValidRequestBody",
+    "test_method": "FAILING_testGetMinStationFullyValidRequestBody",
+    "test_class": "GetMinStationTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetMinStationTest.testGetQuickestFullyValidRequestBody",
+    "test_method": "testGetQuickestFullyValidRequestBody",
+    "test_class": "GetMinStationTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetMinStationTest.testGetMinStationNoStationsExist",
+    "test_method": "testGetMinStationNoStationsExist",
+    "test_class": "GetMinStationTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetMinStationTest.testGetMinStationDepartureTimeFromPast",
+    "test_method": "testGetMinStationDepartureTimeFromPast",
+    "test_class": "GetMinStationTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetMinStationTest.testGetMinStationUnavailableService",
+    "test_method": "testGetMinStationUnavailableService",
+    "test_class": "GetMinStationTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetQuickestTest.FAILING_testGetQuickestFullyValidRequestBody",
+    "test_method": "FAILING_testGetQuickestFullyValidRequestBody",
+    "test_class": "GetQuickestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetQuickestTest.testGetQuickestFullyValidRequestBody",
+    "test_method": "testGetQuickestFullyValidRequestBody",
+    "test_class": "GetQuickestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetQuickestTest.testGetQuickestNoStationsExist",
+    "test_method": "testGetQuickestNoStationsExist",
+    "test_class": "GetQuickestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetQuickestTest.testGetQuickestDepartureTimeFromPast",
+    "test_method": "testGetQuickestDepartureTimeFromPast",
+    "test_class": "GetQuickestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetQuickestTest.testGetQuickestUnavailableService",
+    "test_method": "testGetQuickestUnavailableService",
+    "test_class": "GetQuickestTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-route-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetTransferSearchTest.FAILING_testGetTransferSearchFullyValidRequestBodyOrdersFound",
+    "test_method": "FAILING_testGetTransferSearchFullyValidRequestBodyOrdersFound",
+    "test_class": "GetTransferSearchTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchFullyValidRequestBodyNoOrderFound",
+    "test_method": "testGetTransferSearchFullyValidRequestBodyNoOrderFound",
+    "test_class": "GetTransferSearchTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchNoStationsExist",
+    "test_method": "testGetTransferSearchNoStationsExist",
+    "test_class": "GetTransferSearchTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchDepartureTimeFromPast",
+    "test_method": "testGetTransferSearchDepartureTimeFromPast",
+    "test_class": "GetTransferSearchTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchUnavailableService",
+    "test_method": "testGetTransferSearchUnavailableService",
+    "test_class": "GetTransferSearchTest",
+    "test_file": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-plan-service",
+    "calls": [
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "path": [
+      "ts-travel-plan-service",
+      "ts-order-other-service",
+      "ts-travel-service",
+      "ts-seat-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-travel2-service",
+      "ts-ticketinfo-service",
+      "ts-basic-service",
+      "ts-train-service",
+      "ts-route-service",
+      "ts-price-service",
+      "ts-config-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllValidObjects",
+    "test_method": "testAdminQueryAllValidObjects",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllZeroObjects",
+    "test_method": "testAdminQueryAllZeroObjects",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetRouteByTripIdTest.testGetRouteByTripIdValidTripId",
+    "test_method": "testGetRouteByTripIdValidTripId",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetRouteByTripIdTest.testGetRouteByTripIdWrongId",
+    "test_method": "testGetRouteByTripIdWrongId",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetRouteByTripIdTest.FAILING_testGetRouteByTripIdRouteNotExists",
+    "test_method": "FAILING_testGetRouteByTripIdRouteNotExists",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service"
+    ],
+    "related_issue": "F6",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-service:GetRouteByTripIdTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdValidTripId",
+    "test_method": "testGetTrainTypeByTripIdValidTripId",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdTrainTypeNotExists",
+    "test_method": "testGetTrainTypeByTripIdTrainTypeNotExists",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:GetTrainTypeByTripIdTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-train-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "test_method": "FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "test_method": "testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoMissingTrip",
+    "test_method": "testGetTripAllDetailInfoMissingTrip",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoRouteNotExists",
+    "test_method": "testGetTripAllDetailInfoRouteNotExists",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "test_method": "FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F13b",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-service:TripDetailTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripsLeftTest.FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "test_method": "FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel-service"
+  },
+  {
+    "test_id": "ts-travel-service:TripsLeftTest.testQueryFullyValidRequestBodyNoOrderFound",
+    "test_method": "testQueryFullyValidRequestBodyNoOrderFound",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripsLeftTest.testQueryStartingAndEndPlaceNotExist",
+    "test_method": "testQueryStartingAndEndPlaceNotExist",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel-service:TripsLeftTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllValidObjects",
+    "test_method": "testAdminQueryAllValidObjects",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllZeroObjects",
+    "test_method": "testAdminQueryAllZeroObjects",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "AdminQueryAllTripsTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdValidTripId",
+    "test_method": "testGetRouteByTripIdValidTripId",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdWrongId",
+    "test_method": "testGetRouteByTripIdWrongId",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdRouteNotExists",
+    "test_method": "testGetRouteByTripIdRouteNotExists",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetRouteByTripIdTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "GetRouteByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdValidTripId",
+    "test_method": "testGetTrainTypeByTripIdValidTripId",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdTrainTypeNotExists",
+    "test_method": "testGetTrainTypeByTripIdTrainTypeNotExists",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:GetTrainTypeByTripIdTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "GetTrainTypeByTripIdTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-train-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-train-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "test_method": "FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel2-service"
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "test_method": "testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoMissingTrip",
+    "test_method": "testGetTripAllDetailInfoMissingTrip",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoRouteNotExists",
+    "test_method": "testGetTripAllDetailInfoRouteNotExists",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "test_method": "FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F13c",
+    "faulty_service": "ts-travel2-service"
+  },
+  {
+    "test_id": "ts-travel2-service:TripDetailTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "TripDetailTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripsLeftTest.FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "test_method": "FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java",
+    "status": "FAILING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "F17",
+    "faulty_service": "ts-travel2-service"
+  },
+  {
+    "test_id": "ts-travel2-service:TripsLeftTest.testQueryFullyValidRequestBodyNoOrderFound",
+    "test_method": "testQueryFullyValidRequestBodyNoOrderFound",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripsLeftTest.testQueryStartingAndEndPlaceNotExist",
+    "test_method": "testQueryStartingAndEndPlaceNotExist",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-travel2-service:TripsLeftTest.testAdminQueryAllUnavailableService",
+    "test_method": "testAdminQueryAllUnavailableService",
+    "test_class": "TripsLeftTest",
+    "test_file": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java",
+    "status": "PASSING",
+    "source_service": "ts-travel2-service",
+    "calls": [
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "path": [
+      "ts-travel2-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-seat-service",
+      "ts-ticketinfo-service",
+      "ts-order-other-service",
+      "ts-station-service",
+      "ts-basic-service",
+      "ts-travel2-service",
+      "ts-config-service",
+      "ts-price-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdElementInDatabase",
+    "test_method": "testDeleteUserByIdElementInDatabase",
+    "test_class": "DeleteUserByIdTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdMissingObject",
+    "test_method": "testDeleteUserByIdMissingObject",
+    "test_class": "DeleteUserByIdTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdUnavailableService",
+    "test_method": "testDeleteUserByIdUnavailableService",
+    "test_class": "DeleteUserByIdTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.testRegisterUserCorrectObject",
+    "test_method": "testRegisterUserCorrectObject",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.testRegisterUserUsernameAlreadyExists",
+    "test_method": "testRegisterUserUsernameAlreadyExists",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.testRegisterUserUsernameEmpty",
+    "test_method": "testRegisterUserUsernameEmpty",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.testRegisterUserUsernameNull",
+    "test_method": "testRegisterUserUsernameNull",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": "S1",
+    "faulty_service": null
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.FAILING_testRegisterUserPasswordTooShort",
+    "test_method": "FAILING_testRegisterUserPasswordTooShort",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "FAILING",
+    "source_service": "ts-user-service",
+    "calls": [
+      "ts-auth-service"
+    ],
+    "path": [
+      "ts-user-service",
+      "ts-auth-service"
+    ],
+    "related_issue": "F2",
+    "faulty_service": "ts-auth-service"
+  },
+  {
+    "test_id": "ts-user-service:RegisterUserTest.testRegisterUserUnavailableService",
+    "test_method": "testRegisterUserUnavailableService",
+    "test_class": "RegisterUserTest",
+    "test_file": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java",
+    "status": "PASSING",
+    "source_service": "ts-user-service",
+    "calls": [],
+    "path": [
+      "ts-user-service"
+    ],
+    "related_issue": null,
+    "faulty_service": null
+  }
+]

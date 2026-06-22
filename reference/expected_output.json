@@ -1,0 +1,798 @@
+{
+  "description": "Reproduction of paper Table 2 \u2014 GNN and GAT rows (per-method published configs)",
+  "gnn": {
+    "method": "GNN (parameter-free message passing)",
+    "source_script": "run_gnn_all_levels.py",
+    "config": {
+      "algorithm": "Mean-aggregation propagation (5 iterations)",
+      "training": "none (parameter-free)",
+      "deterministic": true
+    },
+    "L1 Service": {
+      "top_1": 0.1154,
+      "top_3": 0.3462,
+      "top_5": 0.3462,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-news-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-ui-dashboard",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-user-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-ticket-office-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-basic-info-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-voucher-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-travel-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-order-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-route-service",
+          "score": 0.5
+        },
+        {
+          "node": "ts-verification-code-service",
+          "score": 0.305761
+        },
+        {
+          "node": "ts-rebook-service",
+          "score": 0.229167
+        },
+        {
+          "node": "ts-notification-service",
+          "score": 0.216146
+        },
+        {
+          "node": "ts-travel-plan-service",
+          "score": 0.214286
+        },
+        {
+          "node": "ts-config-service",
+          "score": 0.194124
+        },
+        {
+          "node": "ts-price-service",
+          "score": 0.193213
+        },
+        {
+          "node": "ts-payment-service",
+          "score": 0.193024
+        },
+        {
+          "node": "ts-ticketinfo-service",
+          "score": 0.192215
+        },
+        {
+          "node": "ts-basic-service",
+          "score": 0.191612
+        },
+        {
+          "node": "ts-station-service",
+          "score": 0.190816
+        },
+        {
+          "node": "ts-seat-service",
+          "score": 0.188786
+        },
+        {
+          "node": "ts-travel-service",
+          "score": 0.187448
+        },
+        {
+          "node": "ts-travel2-service",
+          "score": 0.184622
+        },
+        {
+          "node": "ts-route-service",
+          "score": 0.180393
+        },
+        {
+          "node": "ts-train-service",
+          "score": 0.177625
+        },
+        {
+          "node": "ts-route-plan-service",
+          "score": 0.16899
+        },
+        {
+          "node": "ts-preserve-other-service",
+          "score": 0.166667
+        },
+        {
+          "node": "ts-preserve-service",
+          "score": 0.166667
+        },
+        {
+          "node": "ts-contacts-service",
+          "score": 0.166667
+        },
+        {
+          "node": "ts-assurance-service",
+          "score": 0.161017
+        },
+        {
+          "node": "ts-food-service",
+          "score": 0.150794
+        }
+      ]
+    },
+    "L2 API Endpoint": {
+      "top_1": 0.3462,
+      "top_3": 0.4231,
+      "top_5": 0.4231,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+          "score": 0.666667
+        },
+        {
+          "node": "ts-food-service:POST /api/v1/foodservice/orders",
+          "score": 0.5
+        },
+        {
+          "node": "ts-security-service:POST /api/v1/securityservice/securityConfigs",
+          "score": 0.5
+        },
+        {
+          "node": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/account",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/stations",
+          "score": 0.5
+        },
+        {
+          "node": "ts-contacts-service:REQUEST /api/v1/contactservice/api/v1/contactservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-food-service:DELETE /api/v1/foodservice/orders/{orderId}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-assurance-service:REQUEST /api/v1/assuranceservice/api/v1/assuranceservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-basic-info-service:DELETE /api/v1/adminbasicservice/adminbasic/stations",
+          "score": 0.5
+        },
+        {
+          "node": "ts-order-service:REQUEST /api/v1/orderservice/api/v1/orderservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-auth-service:GET /api/v1/users/hello",
+          "score": 0.5
+        },
+        {
+          "node": "ts-config-service:DELETE /api/v1/configservice/configs/{configName}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-price-service:POST /api/v1/priceservice/prices",
+          "score": 0.5
+        },
+        {
+          "node": "ts-station-service:GET /api/v1/stationservice/stations/id/{stationNameForId}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-consign-price-service:GET /api/v1/consignpriceservice/consignprice/price",
+          "score": 0.5
+        },
+        {
+          "node": "ts-user-service:REQUEST /api/v1/userservice/users/api/v1/userservice/users",
+          "score": 0.5
+        },
+        {
+          "node": "ts-security-service:REQUEST /api/v1/securityservice/api/v1/securityservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/prices",
+          "score": 0.5
+        },
+        {
+          "node": "ts-food-service:PUT /api/v1/foodservice/orders",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-user-service:GET /api/v1/adminuserservice/users/welcome",
+          "score": 0.5
+        },
+        {
+          "node": "ts-consign-service:GET /api/v1/consignservice/welcome",
+          "score": 0.5
+        },
+        {
+          "node": "ts-user-service:GET /api/v1/userservice/users/{userName}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-execute-service:REQUEST /api/v1/executeservice/api/v1/executeservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-basic-service:GET /api/v1/basicservice/basic/{stationName}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-auth-service:REQUEST /api/v1/auth/api/v1/auth",
+          "score": 0.5
+        },
+        {
+          "node": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/{typeIndex}/{orderId}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-contacts-service:GET /api/v1/contactservice/contacts/{id}",
+          "score": 0.5
+        },
+        {
+          "node": "ts-travel-service:REQUEST /api/v1/travelservice/api/v1/travelservice",
+          "score": 0.5
+        },
+        {
+          "node": "ts-contacts-service:GET /api/v1/contactservice/contacts/welcome",
+          "score": 0.5
+        },
+        {
+          "node": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/money",
+          "score": 0.5
+        }
+      ]
+    },
+    "L3 Java Method": {
+      "top_1": 0.4231,
+      "top_3": 0.7692,
+      "top_5": 0.8846,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-travel-service:TravelServiceImpl.getTripAllDetailInfo",
+          "score": 1.0
+        },
+        {
+          "node": "ts-inside-payment-service:InsidePaymentServiceImpl.payDifference",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel-service:TravelController.getRouteByTripId",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel2-service:Travel2Controller.getTripAllDetailInfo",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel-service:TravelController.getTripAllDetailInfo",
+          "score": 1.0
+        },
+        {
+          "node": "ts-inside-payment-service:InsidePaymentController.payDifference",
+          "score": 1.0
+        },
+        {
+          "node": "ts-rebook-service:RebookServiceImpl.payDifference",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.getRouteByTripId",
+          "score": 1.0
+        },
+        {
+          "node": "ts-rebook-service:RebookController.payDifference",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.getTripAllDetailInfo",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.TripAllDetail",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.TripAllDetail",
+          "score": 1.0
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.Route",
+          "score": 0.972222
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.getRouteByRouteId",
+          "score": 0.972222
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.getTickets",
+          "score": 0.958333
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.Travel",
+          "score": 0.958333
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.query",
+          "score": 0.916667
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.getTickets",
+          "score": 0.875
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.Travel",
+          "score": 0.875
+        },
+        {
+          "node": "ts-assurance-service:AssuranceServiceImpl.Assurance",
+          "score": 0.833333
+        },
+        {
+          "node": "ts-assurance-service:AssuranceServiceImpl.create",
+          "score": 0.833333
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.queryForStationId",
+          "score": 0.805556
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.query",
+          "score": 0.75
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.getRouteByRouteId",
+          "score": 0.75
+        },
+        {
+          "node": "ts-inside-payment-service:InsidePaymentServiceImpl.drawBack",
+          "score": 0.75
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.queryForStationId",
+          "score": 0.6875
+        },
+        {
+          "node": "ts-inside-payment-service:InsidePaymentServiceImpl.Money",
+          "score": 0.583333
+        },
+        {
+          "node": "ts-station-service:StationController.queryForNameBatch",
+          "score": 0.5
+        },
+        {
+          "node": "ts-admin-user-service:AdminUserController.addUser",
+          "score": 0.5
+        },
+        {
+          "node": "ts-station-service:StationService.queryForId",
+          "score": 0.5
+        }
+      ]
+    }
+  },
+  "gat": {
+    "method": "GAT (Graph Attention Network)",
+    "source_script": "run_gnn_optionB_fixed.py",
+    "config": {
+      "architecture": "3-layer GAT, heads 4\u21922\u21921",
+      "hidden": 32,
+      "dropout": 0.2,
+      "epochs": 400,
+      "lr": 0.005,
+      "loss": "BCEWithLogitsLoss (pos_weight)",
+      "seed": 42,
+      "noise_exclusion": true,
+      "l3_bidirectional": false
+    },
+    "L1 Service": {
+      "algorithm": "GAT_OptionB_Fixed",
+      "top_1": 0.2308,
+      "top_3": 0.3846,
+      "top_5": 0.6923,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-rebook-service",
+          "score": 0.900582
+        },
+        {
+          "node": "ts-seat-service",
+          "score": 0.7261
+        },
+        {
+          "node": "ts-payment-service",
+          "score": 0.669778
+        },
+        {
+          "node": "ts-inside-payment-service",
+          "score": 0.619321
+        },
+        {
+          "node": "ts-order-other-service",
+          "score": 0.609225
+        },
+        {
+          "node": "ts-order-service",
+          "score": 0.47135
+        },
+        {
+          "node": "ts-station-service",
+          "score": 0.398131
+        },
+        {
+          "node": "ts-travel-service",
+          "score": 0.189664
+        },
+        {
+          "node": "ts-route-service",
+          "score": 0.177983
+        },
+        {
+          "node": "ts-train-service",
+          "score": -0.185037
+        },
+        {
+          "node": "ts-travel2-service",
+          "score": -0.199202
+        },
+        {
+          "node": "ts-auth-service",
+          "score": -0.41005
+        },
+        {
+          "node": "ts-user-service",
+          "score": -0.8094
+        },
+        {
+          "node": "ts-price-service",
+          "score": -1.154366
+        },
+        {
+          "node": "ts-consign-price-service",
+          "score": -1.220473
+        },
+        {
+          "node": "ts-config-service",
+          "score": -1.371346
+        },
+        {
+          "node": "ts-consign-service",
+          "score": -1.37297
+        },
+        {
+          "node": "ts-contacts-service",
+          "score": -1.457585
+        },
+        {
+          "node": "ts-assurance-service",
+          "score": -1.488392
+        },
+        {
+          "node": "ts-basic-service",
+          "score": -1.504704
+        },
+        {
+          "node": "ts-ticketinfo-service",
+          "score": -1.639069
+        },
+        {
+          "node": "ts-security-service",
+          "score": -1.640844
+        },
+        {
+          "node": "ts-execute-service",
+          "score": -1.768841
+        },
+        {
+          "node": "ts-food-map-service",
+          "score": -2.101209
+        },
+        {
+          "node": "ts-food-service",
+          "score": -2.333714
+        },
+        {
+          "node": "ts-cancel-service",
+          "score": -2.447992
+        },
+        {
+          "node": "ts-route-plan-service",
+          "score": -2.888489
+        },
+        {
+          "node": "ts-travel-plan-service",
+          "score": -3.373785
+        },
+        {
+          "node": "ts-verification-code-service",
+          "score": -3.873492
+        },
+        {
+          "node": "ts-preserve-service",
+          "score": -4.659805
+        }
+      ]
+    },
+    "L2 API Endpoint": {
+      "algorithm": "GAT_OptionB_Fixed",
+      "top_1": 0.1154,
+      "top_3": 0.4615,
+      "top_5": 0.4615,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+          "score": 2.909736
+        },
+        {
+          "node": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+          "score": 2.853727
+        },
+        {
+          "node": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+          "score": 2.47955
+        },
+        {
+          "node": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+          "score": 2.312049
+        },
+        {
+          "node": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+          "score": 2.312049
+        },
+        {
+          "node": "ts-basic-service:POST /api/v1/basicservice/basic/travel",
+          "score": 2.197805
+        },
+        {
+          "node": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+          "score": 2.033611
+        },
+        {
+          "node": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+          "score": 2.033611
+        },
+        {
+          "node": "ts-payment-service:POST /api/v1/paymentservice/payment",
+          "score": 1.963456
+        },
+        {
+          "node": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+          "score": 1.763466
+        },
+        {
+          "node": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+          "score": 1.674327
+        },
+        {
+          "node": "ts-user-service:POST /api/v1/userservice/users/register",
+          "score": 1.257002
+        },
+        {
+          "node": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+          "score": 0.940274
+        },
+        {
+          "node": "ts-news-service:API /",
+          "score": 0.401611
+        },
+        {
+          "node": "ts-order-service:POST /api/v1/orderservice/order/refresh",
+          "score": 0.379768
+        },
+        {
+          "node": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+          "score": 0.261166
+        },
+        {
+          "node": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+          "score": 0.261166
+        },
+        {
+          "node": "USER / UI",
+          "score": -1.065291
+        },
+        {
+          "node": "ts-order-other-service:POST /api/v1/orderOtherService/orderOther/refresh",
+          "score": -1.498998
+        },
+        {
+          "node": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/minStation",
+          "score": -1.566069
+        },
+        {
+          "node": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/cheapest",
+          "score": -1.916434
+        },
+        {
+          "node": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/transferResult",
+          "score": -1.993351
+        },
+        {
+          "node": "ts-config-service:GET /api/v1/configservice/configs",
+          "score": -2.098779
+        },
+        {
+          "node": "ts-travel-plan-service:POST /api/v1/travelplanservice/travelPlan/quickest",
+          "score": -2.174649
+        },
+        {
+          "node": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/cheapestRoute",
+          "score": -2.602598
+        },
+        {
+          "node": "ts-travel-service:GET /api/v1/travelservice/routes/{tripId}",
+          "score": -2.799192
+        },
+        {
+          "node": "ts-ticketinfo-service:GET /api/v1/ticketinfoservice/ticketinfo/{name}",
+          "score": -2.799192
+        },
+        {
+          "node": "ts-admin-route-service:DELETE /api/v1/adminrouteservice/adminroute/{routeId}",
+          "score": -2.799192
+        },
+        {
+          "node": "ts-travel2-service:GET /api/v1/travel2service/routes/{tripId}",
+          "score": -2.799192
+        },
+        {
+          "node": "ts-basic-service:GET /api/v1/basicservice/basic/{stationName}",
+          "score": -2.799192
+        }
+      ]
+    },
+    "L3 Java Method": {
+      "algorithm": "GAT_OptionB_Fixed",
+      "top_1": 0.8462,
+      "top_3": 0.9615,
+      "top_5": 0.9615,
+      "n_failing_tested": 26,
+      "top_30_nodes": [
+        {
+          "node": "ts-travel-service:TravelServiceImpl.Travel",
+          "score": 8.548064
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.Route",
+          "score": 8.434257
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.Travel",
+          "score": 8.118743
+        },
+        {
+          "node": "ts-assurance-service:AssuranceServiceImpl.create",
+          "score": 7.878909
+        },
+        {
+          "node": "ts-travel-service:TravelServiceImpl.TripAllDetail",
+          "score": 7.669826
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.TripAllDetail",
+          "score": 7.669826
+        },
+        {
+          "node": "ts-assurance-service:AssuranceServiceImpl.Assurance",
+          "score": 7.463365
+        },
+        {
+          "node": "ts-order-service:InitData.run",
+          "score": 7.248508
+        },
+        {
+          "node": "ts-order-other-service:InitData.run",
+          "score": 7.248508
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.getTickets",
+          "score": 7.197989
+        },
+        {
+          "node": "ts-order-service:InitData.insertForPreserve",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForExecute",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-service:InitData.insertForRebook",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-service:InitData.insertForTravel",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-service:InitData.insertForCancel",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForCancel",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-service:InitData.insertForExecute",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForTravel",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-service:InitData.insertForInsidePayment",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForRebook",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForPreserve",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-order-other-service:InitData.insertForInsidePayment",
+          "score": 7.196808
+        },
+        {
+          "node": "ts-rebook-service:RebookServiceImpl.updateOrder",
+          "score": 7.167143
+        },
+        {
+          "node": "ts-order-other-service:OrderOtherServiceImpl.initOrder",
+          "score": 7.14252
+        },
+        {
+          "node": "ts-order-service:OrderServiceImpl.initOrder",
+          "score": 7.14252
+        },
+        {
+          "node": "ts-order-service:InitData.Order",
+          "score": 7.142516
+        },
+        {
+          "node": "ts-order-service:InitData.Date",
+          "score": 7.142516
+        },
+        {
+          "node": "ts-order-other-service:InitData.Date",
+          "score": 7.142516
+        },
+        {
+          "node": "ts-order-other-service:InitData.Order",
+          "score": 7.142516
+        },
+        {
+          "node": "ts-travel2-service:Travel2ServiceImpl.queryForStationId",
+          "score": 7.140238
+        }
+      ]
+    }
+  }
+}

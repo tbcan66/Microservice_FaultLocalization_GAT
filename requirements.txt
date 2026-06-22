@@ -1,0 +1,14 @@
+# Requirements for ECSA 2026 Replication Kit
+# CPU-only PyTorch + PyTorch Geometric
+#
+# Install order matters:
+#   1. torch (CPU-only wheel)
+#   2. torch-scatter, torch-sparse (matching torch version)
+#   3. torch-geometric
+#   4. everything else
+#
+# These versions are tested on Python 3.11 in the Docker image.
+# See Dockerfile for the exact install commands.
+
+numpy>=1.26,<2.0
+scipy>=1.12,<2.0

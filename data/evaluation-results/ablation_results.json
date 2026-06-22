@@ -1,0 +1,646 @@
+{
+  "00_no_metrics": {
+    "description": "No metrics \u2014 base 8 features only, edge_dim=1",
+    "node_metrics": [],
+    "edge_metrics": [],
+    "in_features": 8,
+    "edge_dim": 1,
+    "top1_mean": 0.8884615384615383,
+    "top1_std": 0.043683910352309806,
+    "top1_min": 0.8076923076923077,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9576923076923076,
+    "top3_std": 0.011538461538461532,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8076923076923077,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8461538461538461,
+      0.8846153846153846
+    ]
+  },
+  "01_all_metrics": {
+    "description": "All 6 metrics as node features + edge diffs (Option 1 full)",
+    "node_metrics": [
+      "betweenness_centrality",
+      "cyclomatic_complexity",
+      "fan_out",
+      "loc",
+      "param_count",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "fan_out",
+      "betweenness_centrality"
+    ],
+    "in_features": 14,
+    "edge_dim": 5,
+    "top1_mean": 0.9153846153846155,
+    "top1_std": 0.03768445758127968,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9230769230769231,
+      0.8846153846153846,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.8461538461538461,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846
+    ]
+  },
+  "02_only_betweenness": {
+    "description": "Only betweenness_centrality (Definition A rank 1)",
+    "node_metrics": [
+      "betweenness_centrality"
+    ],
+    "edge_metrics": [
+      "betweenness_centrality"
+    ],
+    "in_features": 9,
+    "edge_dim": 2,
+    "top1_mean": 0.9423076923076923,
+    "top1_std": 0.031008683647302134,
+    "top1_min": 0.8846153846153846,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.8846153846153846
+    ]
+  },
+  "03_only_cyclomatic": {
+    "description": "Only cyclomatic_complexity (Definition A rank 3)",
+    "node_metrics": [
+      "cyclomatic_complexity"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity"
+    ],
+    "in_features": 9,
+    "edge_dim": 2,
+    "top1_mean": 0.8461538461538461,
+    "top1_std": 0.042132504423474285,
+    "top1_min": 0.7692307692307693,
+    "top1_max": 0.8846153846153846,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8076923076923077,
+      0.7692307692307693,
+      0.8846153846153846,
+      0.8076923076923077,
+      0.8076923076923077,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8461538461538461
+    ]
+  },
+  "04_only_fan_out": {
+    "description": "Only fan_out (Definition A rank 5)",
+    "node_metrics": [
+      "fan_out"
+    ],
+    "edge_metrics": [
+      "fan_out"
+    ],
+    "in_features": 9,
+    "edge_dim": 2,
+    "top1_mean": 0.95,
+    "top1_std": 0.024627400913203278,
+    "top1_min": 0.8846153846153846,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9615384615384616
+    ]
+  },
+  "05_only_loc": {
+    "description": "Only loc (Definition A rank 6)",
+    "node_metrics": [
+      "loc"
+    ],
+    "edge_metrics": [
+      "loc"
+    ],
+    "in_features": 9,
+    "edge_dim": 2,
+    "top1_mean": 0.9038461538461539,
+    "top1_std": 0.031008683647302138,
+    "top1_min": 0.8846153846153846,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9230769230769231,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.9615384615384616
+    ]
+  },
+  "06_only_param_count": {
+    "description": "Only param_count (Definition A rank 8)",
+    "node_metrics": [
+      "param_count"
+    ],
+    "edge_metrics": [],
+    "in_features": 9,
+    "edge_dim": 1,
+    "top1_mean": 0.9538461538461538,
+    "top1_std": 0.015384615384615373,
+    "top1_min": 0.9230769230769231,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616
+    ]
+  },
+  "07_only_fan_in": {
+    "description": "Only fan_in (Definition A rank 10)",
+    "node_metrics": [
+      "fan_in"
+    ],
+    "edge_metrics": [],
+    "in_features": 9,
+    "edge_dim": 1,
+    "top1_mean": 0.876923076923077,
+    "top1_std": 0.03768445758127968,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9576923076923076,
+    "top3_std": 0.011538461538461532,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8461538461538461,
+      0.8846153846153846,
+      0.8461538461538461,
+      0.8461538461538461,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8461538461538461,
+      0.9230769230769231,
+      0.8846153846153846,
+      0.8461538461538461
+    ]
+  },
+  "08_no_betweenness": {
+    "description": "All metrics EXCEPT betweenness_centrality",
+    "node_metrics": [
+      "cyclomatic_complexity",
+      "fan_out",
+      "loc",
+      "param_count",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "fan_out"
+    ],
+    "in_features": 13,
+    "edge_dim": 4,
+    "top1_mean": 0.8807692307692306,
+    "top1_std": 0.043683910352309806,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8461538461538461,
+      0.8461538461538461,
+      0.8461538461538461,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.8461538461538461,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8461538461538461,
+      0.9615384615384616
+    ]
+  },
+  "09_no_cyclomatic": {
+    "description": "All metrics EXCEPT cyclomatic_complexity",
+    "node_metrics": [
+      "betweenness_centrality",
+      "fan_out",
+      "loc",
+      "param_count",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "loc",
+      "fan_out",
+      "betweenness_centrality"
+    ],
+    "in_features": 13,
+    "edge_dim": 4,
+    "top1_mean": 0.9538461538461538,
+    "top1_std": 0.015384615384615373,
+    "top1_min": 0.9230769230769231,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9230769230769231,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616
+    ]
+  },
+  "10_no_fan_out": {
+    "description": "All metrics EXCEPT fan_out",
+    "node_metrics": [
+      "betweenness_centrality",
+      "cyclomatic_complexity",
+      "loc",
+      "param_count",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "betweenness_centrality"
+    ],
+    "in_features": 13,
+    "edge_dim": 4,
+    "top1_mean": 0.8961538461538462,
+    "top1_std": 0.038653367773541905,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8846153846153846,
+      0.8461538461538461,
+      0.9230769230769231,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8461538461538461,
+      0.8846153846153846
+    ]
+  },
+  "11_no_loc": {
+    "description": "All metrics EXCEPT loc",
+    "node_metrics": [
+      "betweenness_centrality",
+      "cyclomatic_complexity",
+      "fan_out",
+      "param_count",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "fan_out",
+      "betweenness_centrality"
+    ],
+    "in_features": 13,
+    "edge_dim": 4,
+    "top1_mean": 0.9230769230769231,
+    "top1_std": 0.03846153846153848,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8846153846153846,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.8461538461538461,
+      0.9230769230769231
+    ]
+  },
+  "12_no_param_count": {
+    "description": "All metrics EXCEPT param_count",
+    "node_metrics": [
+      "betweenness_centrality",
+      "cyclomatic_complexity",
+      "fan_out",
+      "loc",
+      "fan_in"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "fan_out",
+      "betweenness_centrality"
+    ],
+    "in_features": 13,
+    "edge_dim": 5,
+    "top1_mean": 0.8923076923076924,
+    "top1_std": 0.03768445758127968,
+    "top1_min": 0.8076923076923077,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9230769230769231,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8076923076923077,
+      0.9230769230769231,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846
+    ]
+  },
+  "13_no_fan_in": {
+    "description": "All metrics EXCEPT fan_in",
+    "node_metrics": [
+      "betweenness_centrality",
+      "cyclomatic_complexity",
+      "fan_out",
+      "loc",
+      "param_count"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "fan_out",
+      "betweenness_centrality"
+    ],
+    "in_features": 13,
+    "edge_dim": 5,
+    "top1_mean": 0.9307692307692308,
+    "top1_std": 0.028781979898261104,
+    "top1_min": 0.8846153846153846,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.9230769230769231
+    ]
+  },
+  "14_complexity_only_group": {
+    "description": "Complexity dimension only: cyclomatic + betweenness",
+    "node_metrics": [
+      "cyclomatic_complexity",
+      "betweenness_centrality"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "betweenness_centrality"
+    ],
+    "in_features": 10,
+    "edge_dim": 3,
+    "top1_mean": 0.9115384615384616,
+    "top1_std": 0.034615384615384645,
+    "top1_min": 0.8846153846153846,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8846153846153846,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.9230769230769231
+    ]
+  },
+  "15_size_coupling_group": {
+    "description": "Size + Coupling only: loc + fan_out + fan_in + param_count",
+    "node_metrics": [
+      "loc",
+      "fan_out",
+      "fan_in",
+      "param_count"
+    ],
+    "edge_metrics": [
+      "loc",
+      "fan_out"
+    ],
+    "in_features": 12,
+    "edge_dim": 3,
+    "top1_mean": 0.9615384615384615,
+    "top1_std": 1.1102230246251565e-16,
+    "top1_min": 0.9615384615384616,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616
+    ]
+  },
+  "16_graph_metrics_only": {
+    "description": "Graph structure metrics only: betweenness + fan_in + fan_out",
+    "node_metrics": [
+      "betweenness_centrality",
+      "fan_in",
+      "fan_out"
+    ],
+    "edge_metrics": [
+      "betweenness_centrality",
+      "fan_out"
+    ],
+    "in_features": 11,
+    "edge_dim": 3,
+    "top1_mean": 0.9461538461538461,
+    "top1_std": 0.01884222879063982,
+    "top1_min": 0.9230769230769231,
+    "top1_max": 0.9615384615384616,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9615384615384616,
+      0.9230769230769231,
+      0.9615384615384616,
+      0.9230769230769231
+    ]
+  },
+  "17_source_metrics_only": {
+    "description": "Source-text metrics only: cyclomatic + loc + param_count",
+    "node_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "param_count"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc"
+    ],
+    "in_features": 11,
+    "edge_dim": 3,
+    "top1_mean": 0.8692307692307691,
+    "top1_std": 0.025512498387349213,
+    "top1_min": 0.8076923076923077,
+    "top1_max": 0.8846153846153846,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8846153846153846,
+      0.8076923076923077,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8461538461538461,
+      0.8461538461538461
+    ]
+  },
+  "18_original_4_metrics": {
+    "description": "Original 4 metrics: cyclomatic + loc + param_count + fan_out",
+    "node_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "param_count",
+      "fan_out"
+    ],
+    "edge_metrics": [
+      "cyclomatic_complexity",
+      "loc",
+      "fan_out"
+    ],
+    "in_features": 12,
+    "edge_dim": 4,
+    "top1_mean": 0.8846153846153847,
+    "top1_std": 0.01720052290384455,
+    "top1_min": 0.8461538461538461,
+    "top1_max": 0.9230769230769231,
+    "top3_mean": 0.9615384615384615,
+    "top3_std": 1.1102230246251565e-16,
+    "top5_mean": 0.9615384615384615,
+    "top5_std": 1.1102230246251565e-16,
+    "all_top1_seeds": [
+      0.8846153846153846,
+      0.8461538461538461,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.8846153846153846,
+      0.9230769230769231,
+      0.8846153846153846
+    ]
+  }
+}

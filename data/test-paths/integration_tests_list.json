@@ -1,0 +1,842 @@
+[
+  {
+    "Test Name": "ts-auth-service:LoginUserTest.testLoginUserTestCorrectObject",
+    "Test File Path": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java"
+  },
+  {
+    "Test Name": "ts-auth-service:LoginUserTest.testLoginUserTestUserNotInRepository",
+    "Test File Path": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java"
+  },
+  {
+    "Test Name": "ts-auth-service:LoginUserTest.testLoginUserTestUsernamePasswordIncorrect",
+    "Test File Path": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java"
+  },
+  {
+    "Test Name": "ts-auth-service:LoginUserTest.testLoginUserTestVerifyCodeInvalid",
+    "Test File Path": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java"
+  },
+  {
+    "Test Name": "ts-auth-service:LoginUserTest.testLoginUserTestServiceUnavailable",
+    "Test File Path": "ts-auth-service/src/test/java/auth/integration/post/LoginUserTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.testQueryForTravelValidObject",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingPlaceNames",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.FAILING_testQueryForTravelNotExistingTrainType",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingRoute",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.testQueryForTravelNotExistingPriceConfig",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-basic-service:QueryForTravelTest.testQueryForTravelUnavailableService",
+    "Test File Path": "ts-basic-service/src/test/java/fdse/microservice/integration/post/QueryForTravelTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNotPaidFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundPaidFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundDifferentStatusFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNotPaidFromOrderOtherService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundPaidFromOrderOtherService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundDifferentStatusFromOrderOtherService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundNonExistingId",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CalculateRefundTest.testCalculateRefundUnavailableService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CalculateRefundTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidSuccessFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderDifferentStatusFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderDifferentStatusFromOrderOtherService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidSuccessFromOrderOtherService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderNotPaidWrongUserInfoFromOrderService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderNonExistingId",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-cancel-service:CancelOrderTest.testCancelOrderUnavailableService",
+    "Test File Path": "ts-cancel-service/src/test/java/cancel/integration/get/CancelOrderTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:InsertConsignTest.testInsertConsignTestCorrectObject",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/post/InsertConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:InsertConsignTest.testInsertConsignTestServiceUnavailable",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/post/InsertConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:UpdateConsignTest.testUpdateConsignCorrectObjectSameWeight",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:UpdateConsignTest.testUpdateConsignCorrectObjectDifferentWeight",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:UpdateConsignTest.testUpdateConsignConsignIdNotExists",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:UpdateConsignTest.testUpdateConsignEdgeCaseWeightAndPrice",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java"
+  },
+  {
+    "Test Name": "ts-consign-service:UpdateConsignTest.testUpdateConsignServiceUnavailable",
+    "Test File Path": "ts-consign-service/src/test/java/consign/integration/put/UpdateConsignTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketCollectTest.testTicketCollectCorrectIdOrderService",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketCollectTest.testTicketCollectCorrectIdOrderOtherService",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketCollectTest.testTicketCollectIdNotExists",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketCollectTest.testTicketCollectServiceUnavailable",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketCollectTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketExecuteTest.testTicketExecuteCorrectIdOrderService",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketExecuteTest.testTicketExecuteCorrectIdOrderOtherService",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketExecuteTest.testTicketExecuteIdNotExists",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java"
+  },
+  {
+    "Test Name": "ts-execute-service:TicketExecuteTest.testTicketExecuteServiceUnavailable",
+    "Test File Path": "ts-execute-service/src/test/java/execute/integration/get/TicketExecuteTest.java"
+  },
+  {
+    "Test Name": "ts-food-service:GetAllFoodTest.testGetAllFoodCorrectObject",
+    "Test File Path": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java"
+  },
+  {
+    "Test Name": "ts-food-service:GetAllFoodTest.testGetAllFoodStationsNotFound",
+    "Test File Path": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java"
+  },
+  {
+    "Test Name": "ts-food-service:GetAllFoodTest.testGetAllNoRouteFound",
+    "Test File Path": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java"
+  },
+  {
+    "Test Name": "ts-food-service:GetAllFoodTest.testGetAllFoodServiceUnavailable",
+    "Test File Path": "ts-food-service/src/test/java/adminorder/integration/GetAllFoodTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayDifferenceTest.testPayDifferenceCorrectObject",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayDifferenceTest.FAILING_testPayDifferenceDuplicatePayment",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayDifferenceTest.FAILING_testPayDifferenceNegativePrice",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayDifferenceTest.testPayDifferenceUnavailableService",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayTest.testPayCorrectObjectOrderService",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayTest.testPayCorrectObjectOrderOtherService",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayTest.testPayOrderNotFound",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayTest.FAILING_testPayNegativePrice",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java"
+  },
+  {
+    "Test Name": "ts-inside-payment-service:PayTest.testPayUnavailableService",
+    "Test File Path": "ts-inside-payment-service/src/test/java/inside_payment/integration/post/PayTest.java"
+  },
+  {
+    "Test Name": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshCorrectObject",
+    "Test File Path": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshNoOrdersFound",
+    "Test File Path": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-other-service:QueryOrdersForRefreshTest.FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "Test File Path": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-other-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshServiceUnavailable",
+    "Test File Path": "ts-order-other-service/src/test/java/other/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshCorrectObject",
+    "Test File Path": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshNoOrdersFound",
+    "Test File Path": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-service:QueryOrdersForRefreshTest.FAILING_testQueryOrdersForRefreshNoStationNameFound",
+    "Test File Path": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-order-service:QueryOrdersForRefreshTest.testQueryOrdersForRefreshServiceUnavailable",
+    "Test File Path": "ts-order-service/src/test/java/order/integration/post/QueryOrdersForRefreshTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.FAILING_testPreserveAssuranceInvalid",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveAccountIdInvalidFormat",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveAccountIdNonExisting",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveContactsIdInvalidFormat",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveContactsIdNonExisting",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveTripIdWrongFormat",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveSeatTypeInvalid",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.FAILING_testPreserveSeatTooFewSeats",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveDateInvalidDate",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveFromToInvalidName",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveNoRoute",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveEmailError",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-other-service:PreserveTest.testPreserveUnavailableService",
+    "Test File Path": "ts-preserve-other-service/src/test/java/preserveOther/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.FAILING_testPreserveAssuranceInvalid",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.FIXED_PREVIOUSLY_FAILING_testPreserveCorrectObject",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveAccountIdInvalidFormat",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveAccountIdNonExisting",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveContactsIdInvalidFormat",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveContactsIdNonExisting",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveTripIdWrongFormat",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveSeatTypeInvalid",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.FAILING_testPreserveSeatTooFewSeats",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveDateInvalidDate",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveFromToInvalidName",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveNoRoute",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveEmailError",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-preserve-service:PreserveTest.testPreserveUnavailableService",
+    "Test File Path": "ts-preserve-service/src/test/java/preserve/integration/post/PreserveTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.FAILING_testPayDifferenceCorrectObject",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.FAILING_testPayDifferencePaymentFailed",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceLoginIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceOrderIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceTripIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceTripIdSameType",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceSeatTypeInvalid",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceNegativeDifference",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceLoginIdWrongFormat",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceOrderIdWrongFormat",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:PayDifferenceTest.testPayDifferenceUnavailableService",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/PayDifferenceTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.FAILING_testRebookCorrectObject",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookCantPayDifference",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.FAILING_testRebookLoginIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookOrderIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookTripIdNonExisting",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookTripIdSameType",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.FAILING_testRebookTooFewSeats",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookSeatTypeInvalid",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookDateMoreThan2Hours",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookLoginIdWrongFormat",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookOrderIdWrongFormat",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-rebook-service:RebookTest.testRebookUnavailableService",
+    "Test File Path": "ts-rebook-service/src/test/java/rebook/integration/post/RebookTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultNoTrips",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultCorrectObject",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchCheapestResultTest.testSearchCheapestResultServiceUnavailable",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchCheapestResultTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsNoTrips",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsCorrectObject",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchMinStopStationsTest.testSearchMinStopStationsServiceUnavailable",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchMinStopStationsTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultNoTrips",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultCorrectObject",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java"
+  },
+  {
+    "Test Name": "ts-route-plan-service:SearchQuickestResultTest.testSearchQuickestResultServiceUnavailable",
+    "Test File Path": "ts-route-plan-service/src/test/java/plan/integration/post/SearchQuickestResultTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberG",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberNotG",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatStartStationDestStationNonExisting",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatTrainNumberNonExisting",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatSeatTypeOutOfRange",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:DistributeSeatTest.testDistributeSeatUnavailableService",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/DistributeSeatTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberG",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberNotGOrD",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalStartStationDestStationNonExisting",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalTrainNumberNonExisting",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalSeatTypeOutOfRange",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-seat-service:GetLeftTicketOfIntervalTest.testGetLeftTicketOfIntervalServiceUnavailable",
+    "Test File Path": "ts-seat-service/src/test/java/seat/integration/post/GetLeftTicketOfIntervalTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckCorrectId",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckMultipleIds",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckNonExistingId",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckTooHighValues",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckInvalidId",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckNonExistingSecurityConfigs",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-security-service:CheckAccountIdTest.testCheckUnavailableService",
+    "Test File Path": "ts-security-service/src/test/java/security/integration/get/CheckAccountIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetCheapestTest.FAILING_testGetCheapestFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetCheapestTest.testGetQuickestFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetCheapestTest.testGetCheapestNoStationsExist",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetCheapestTest.testGetCheapestDepartureTimeFromPast",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetCheapestTest.testGetCheapestUnavailableService",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetCheapestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetMinStationTest.FAILING_testGetMinStationFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetMinStationTest.testGetQuickestFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetMinStationTest.testGetMinStationNoStationsExist",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetMinStationTest.testGetMinStationDepartureTimeFromPast",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetMinStationTest.testGetMinStationUnavailableService",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetMinStationTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetQuickestTest.FAILING_testGetQuickestFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetQuickestTest.testGetQuickestFullyValidRequestBody",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetQuickestTest.testGetQuickestNoStationsExist",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetQuickestTest.testGetQuickestDepartureTimeFromPast",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetQuickestTest.testGetQuickestUnavailableService",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetQuickestTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetTransferSearchTest.FAILING_testGetTransferSearchFullyValidRequestBodyOrdersFound",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchFullyValidRequestBodyNoOrderFound",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchNoStationsExist",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchDepartureTimeFromPast",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java"
+  },
+  {
+    "Test Name": "ts-travel-plan-service:GetTransferSearchTest.testGetTransferSearchUnavailableService",
+    "Test File Path": "ts-travel-plan-service/src/test/java/travelplan/integration/post/GetTransferSearchTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllValidObjects",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllZeroObjects",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:AdminQueryAllTripsTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetRouteByTripIdTest.testGetRouteByTripIdValidTripId",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetRouteByTripIdTest.testGetRouteByTripIdWrongId",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetRouteByTripIdTest.FAILING_testGetRouteByTripIdRouteNotExists",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetRouteByTripIdTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdValidTripId",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdTrainTypeNotExists",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:GetTrainTypeByTripIdTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoMissingTrip",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.testGetTripAllDetailInfoRouteNotExists",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripDetailTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripsLeftTest.FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripsLeftTest.testQueryFullyValidRequestBodyNoOrderFound",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripsLeftTest.testQueryStartingAndEndPlaceNotExist",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel-service:TripsLeftTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel-service/src/test/java/travel/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllValidObjects",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllZeroObjects",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:AdminQueryAllTripsTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/AdminQueryAllTripsTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdValidTripId",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdWrongId",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetRouteByTripIdTest.testGetRouteByTripIdRouteNotExists",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetRouteByTripIdTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetRouteByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdValidTripId",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetTrainTypeByTripIdTest.testGetTrainTypeByTripIdTrainTypeNotExists",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:GetTrainTypeByTripIdTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/get/GetTrainTypeByTripIdTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFullyValidRequestBodyOrderFound",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoFullyValidRequestBodyNoOrderFound",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoMissingTrip",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.testGetTripAllDetailInfoRouteNotExists",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.FAILING_testGetTripAllDetailInfoFromToEmptyStrings",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripDetailTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripDetailTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripsLeftTest.FAILING_testQueryFullyValidRequestBodyOrderFound",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripsLeftTest.testQueryFullyValidRequestBodyNoOrderFound",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripsLeftTest.testQueryStartingAndEndPlaceNotExist",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-travel2-service:TripsLeftTest.testAdminQueryAllUnavailableService",
+    "Test File Path": "ts-travel2-service/src/test/java/travel2/integration/post/TripsLeftTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdElementInDatabase",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdMissingObject",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:DeleteUserByIdTest.testDeleteUserByIdUnavailableService",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/delete/DeleteUserByIdTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.testRegisterUserCorrectObject",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.testRegisterUserUsernameAlreadyExists",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.testRegisterUserUsernameEmpty",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.testRegisterUserUsernameNull",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.FAILING_testRegisterUserPasswordTooShort",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  },
+  {
+    "Test Name": "ts-user-service:RegisterUserTest.testRegisterUserUnavailableService",
+    "Test File Path": "ts-user-service/src/test/java/user/integration/post/RegisterUserTest.java"
+  }
+]

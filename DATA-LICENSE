@@ -1,0 +1,38 @@
+Data License — Creative Commons Attribution 4.0 International (CC BY 4.0)
+========================================================================
+
+The data artifacts in the data/ directory that were produced by the authors
+(the multi-level call graphs, static code metrics, test execution paths, and
+evaluation results) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  License text:  https://creativecommons.org/licenses/by/4.0/legalcode
+  Summary:       https://creativecommons.org/licenses/by/4.0/
+  SPDX-License-Identifier: CC-BY-4.0
+
+You are free to share and adapt this material for any purpose, provided you
+give appropriate credit to:
+
+  Tuğba Can and Feza Buzluca, "Graph-Based Fault Localization in Microservices
+  using Static Code Metrics," European Conference on Software Architecture
+  (ECSA) 2026.
+
+
+Attribution of Upstream Sources
+-------------------------------
+These data artifacts are derived from third-party sources, which retain their
+own licenses and must also be credited:
+
+1. Train-Ticket microservice benchmark — the subject system from which the
+   call graphs and static code metrics were extracted.
+   Licensed under the Apache License 2.0.
+   https://github.com/FudanSELab/train-ticket
+
+2. Integration test suite and fault set — derived from:
+   Gregor, L., Skalski, M., & Pretschner, A. (2025). Benchmarking component and
+   integration testing in microservices: Test suites and fault analysis on
+   TrainTicket. 2025 IEEE International Conference on Service-Oriented System
+   Engineering (SOSE), 39-50. https://doi.org/10.1109/SOSE67019.2025.00009
+
+Use of the derived data should respect the licensing terms of these upstream
+sources in addition to CC BY 4.0.

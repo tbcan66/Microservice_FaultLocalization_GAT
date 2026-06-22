@@ -1,0 +1,389 @@
+{
+  "L1 Service": {
+    "algorithm": "GAT_OptionB_Fixed",
+    "top_1": 0.2692,
+    "top_3": 0.5769,
+    "top_5": 0.6923,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-common",
+        "score": 3.424633
+      },
+      {
+        "node": "ts-ui-test",
+        "score": 3.424633
+      },
+      {
+        "node": "ts-seat-service",
+        "score": 2.128256
+      },
+      {
+        "node": "ts-rebook-service",
+        "score": 1.805533
+      },
+      {
+        "node": "ts-order-other-service",
+        "score": 1.284876
+      },
+      {
+        "node": "ts-route-plan-service",
+        "score": 1.093663
+      },
+      {
+        "node": "ts-travel-plan-service",
+        "score": 1.042468
+      },
+      {
+        "node": "ts-auth-service",
+        "score": 0.991449
+      },
+      {
+        "node": "ts-travel2-service",
+        "score": 0.843114
+      },
+      {
+        "node": "ts-inside-payment-service",
+        "score": 0.816298
+      },
+      {
+        "node": "ts-travel-service",
+        "score": 0.800727
+      },
+      {
+        "node": "ts-route-service",
+        "score": 0.348024
+      },
+      {
+        "node": "ts-train-service",
+        "score": 0.258947
+      },
+      {
+        "node": "ts-execute-service",
+        "score": 0.212099
+      },
+      {
+        "node": "ts-station-service",
+        "score": 0.201583
+      },
+      {
+        "node": "ts-order-service",
+        "score": 0.088031
+      },
+      {
+        "node": "ts-payment-service",
+        "score": 0.001339
+      },
+      {
+        "node": "ts-basic-service",
+        "score": -0.049261
+      },
+      {
+        "node": "ts-ticketinfo-service",
+        "score": -0.107536
+      },
+      {
+        "node": "ts-food-map-service",
+        "score": -0.14434
+      },
+      {
+        "node": "ts-price-service",
+        "score": -0.155522
+      },
+      {
+        "node": "ts-ui-dashboard",
+        "score": -0.228071
+      },
+      {
+        "node": "ts-config-service",
+        "score": -0.270081
+      },
+      {
+        "node": "ts-cancel-service",
+        "score": -0.390135
+      },
+      {
+        "node": "ts-user-service",
+        "score": -1.106013
+      },
+      {
+        "node": "ts-news-service",
+        "score": -1.152619
+      },
+      {
+        "node": "ts-ticket-office-service",
+        "score": -1.152619
+      },
+      {
+        "node": "ts-verification-code-service",
+        "score": -1.169523
+      },
+      {
+        "node": "ts-notification-service",
+        "score": -1.409122
+      },
+      {
+        "node": "ts-consign-service",
+        "score": -1.43585
+      }
+    ]
+  },
+  "L2 API Endpoint": {
+    "algorithm": "GAT_OptionB_Fixed",
+    "top_1": 0.2308,
+    "top_3": 0.4615,
+    "top_5": 0.4615,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-rebook-service:POST /api/v1/rebookservice/rebook/difference",
+        "score": 3.503191
+      },
+      {
+        "node": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+        "score": 3.164829
+      },
+      {
+        "node": "ts-rebook-service:POST /api/v1/rebookservice/rebook",
+        "score": 2.936954
+      },
+      {
+        "node": "ts-ticketinfo-service:POST /api/v1/ticketinfoservice/ticketinfo",
+        "score": 2.498081
+      },
+      {
+        "node": "ts-preserve-service:POST /api/v1/preserveservice/preserve",
+        "score": 2.13352
+      },
+      {
+        "node": "ts-preserve-other-service:POST /api/v1/preserveotherservice/preserveOther",
+        "score": 2.13352
+      },
+      {
+        "node": "ts-travel2-service:POST /api/v1/travel2service/trip_detail",
+        "score": 2.099841
+      },
+      {
+        "node": "ts-travel-service:POST /api/v1/travelservice/trip_detail",
+        "score": 2.099841
+      },
+      {
+        "node": "ts-basic-service:POST /api/v1/basicservice/basic/travel",
+        "score": 1.640281
+      },
+      {
+        "node": "ts-order-service:POST /api/v1/orderservice/order/refresh",
+        "score": 1.583808
+      },
+      {
+        "node": "ts-payment-service:POST /api/v1/paymentservice/payment",
+        "score": 1.006011
+      },
+      {
+        "node": "ts-route-plan-service:POST /api/v1/routeplanservice/routePlan/minStopStations",
+        "score": 0.950796
+      },
+      {
+        "node": "ts-news-service:API /",
+        "score": 0.828719
+      },
+      {
+        "node": "ts-travel-service:POST /api/v1/travelservice/trips/left",
+        "score": 0.075011
+      },
+      {
+        "node": "ts-travel2-service:POST /api/v1/travel2service/trips/left",
+        "score": 0.075011
+      },
+      {
+        "node": "ts-user-service:POST /api/v1/userservice/users/register",
+        "score": -0.544611
+      },
+      {
+        "node": "ts-station-service:POST /api/v1/stationservice/stations/namelist",
+        "score": -0.571327
+      },
+      {
+        "node": "ts-consign-service:REQUEST /api/v1/consignservice/api/v1/consignservice",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-inside-payment-service:GET /api/v1/inside_pay_service/welcome",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-consign-service:GET /api/v1/consignservice/welcome",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/prices",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-payment-service:REQUEST /api/v1/paymentservice/api/v1/paymentservice",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-auth-service:GET /api/v1/users/hello",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-admin-travel-service:DELETE /api/v1/admintravelservice/admintravel/{tripId}",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-travel-service:GET /api/v1/travelservice/trips",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-ticket-office-service:POST /addOffice",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-consign-service:GET /api/v1/consignservice/consigns/{consignee}",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-user-service:GET /api/v1/userservice/users/{userName}",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-notification-service:GET /api/v1/notifyservice/welcome",
+        "score": -0.572678
+      },
+      {
+        "node": "ts-food-map-service:REQUEST /api/v1/foodmapservice/api/v1/foodmapservice",
+        "score": -0.572678
+      }
+    ]
+  },
+  "L3 Java Method": {
+    "algorithm": "GAT_OptionB_Fixed",
+    "top_1": 0.8462,
+    "top_3": 0.9615,
+    "top_5": 0.9615,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-order-service:InitData.run",
+        "score": 11.42565
+      },
+      {
+        "node": "ts-order-other-service:InitData.run",
+        "score": 11.42565
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForInsidePayment",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForCancel",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForExecute",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForInsidePayment",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForExecute",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForPreserve",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForCancel",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForTravel",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForRebook",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForPreserve",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-other-service:InitData.insertForTravel",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.insertForRebook",
+        "score": 11.414536
+      },
+      {
+        "node": "ts-order-service:InitData.Order",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-order-other-service:InitData.Date",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-order-service:InitData.Date",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-order-other-service:InitData.Order",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-order-other-service:OrderOtherServiceImpl.initOrder",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-order-service:OrderServiceImpl.initOrder",
+        "score": 11.402577
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.updateOrder",
+        "score": 11.39895
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.dipatchSeat",
+        "score": 11.387611
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.createOrder",
+        "score": 11.386039
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.deleteOrder",
+        "score": 11.386039
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.tripGD",
+        "score": 11.384517
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.Order",
+        "score": 11.384517
+      },
+      {
+        "node": "ts-food-map-service:InitData.run",
+        "score": 11.383331
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.train",
+        "score": 11.383331
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.getRestTicketNumber",
+        "score": 11.374778
+      },
+      {
+        "node": "ts-food-map-service:FoodMapServiceImpl.createTrainFood",
+        "score": 11.369188
+      }
+    ]
+  }
+}

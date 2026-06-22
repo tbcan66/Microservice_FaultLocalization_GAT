@@ -1,0 +1,386 @@
+{
+  "L1 Service": {
+    "top_1": 0.1154,
+    "top_3": 0.3462,
+    "top_5": 0.3462,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-ticket-office-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-news-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-route-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-ui-test",
+        "score": 0.5
+      },
+      {
+        "node": "ts-voucher-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-user-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-travel-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-ui-dashboard",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-order-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-basic-info-service",
+        "score": 0.5
+      },
+      {
+        "node": "ts-common",
+        "score": 0.5
+      },
+      {
+        "node": "ts-verification-code-service",
+        "score": 0.305761
+      },
+      {
+        "node": "ts-rebook-service",
+        "score": 0.229167
+      },
+      {
+        "node": "ts-notification-service",
+        "score": 0.216146
+      },
+      {
+        "node": "ts-travel-plan-service",
+        "score": 0.214286
+      },
+      {
+        "node": "ts-config-service",
+        "score": 0.194124
+      },
+      {
+        "node": "ts-price-service",
+        "score": 0.193213
+      },
+      {
+        "node": "ts-payment-service",
+        "score": 0.193024
+      },
+      {
+        "node": "ts-ticketinfo-service",
+        "score": 0.192215
+      },
+      {
+        "node": "ts-basic-service",
+        "score": 0.191612
+      },
+      {
+        "node": "ts-station-service",
+        "score": 0.190816
+      },
+      {
+        "node": "ts-seat-service",
+        "score": 0.188786
+      },
+      {
+        "node": "ts-travel-service",
+        "score": 0.187448
+      },
+      {
+        "node": "ts-travel2-service",
+        "score": 0.184622
+      },
+      {
+        "node": "ts-route-service",
+        "score": 0.180393
+      },
+      {
+        "node": "ts-train-service",
+        "score": 0.177625
+      },
+      {
+        "node": "ts-route-plan-service",
+        "score": 0.16899
+      },
+      {
+        "node": "ts-contacts-service",
+        "score": 0.166667
+      },
+      {
+        "node": "ts-preserve-other-service",
+        "score": 0.166667
+      },
+      {
+        "node": "ts-preserve-service",
+        "score": 0.166667
+      }
+    ]
+  },
+  "L2 API Endpoint": {
+    "top_1": 0.3462,
+    "top_3": 0.4615,
+    "top_5": 0.4615,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-inside-payment-service:POST /api/v1/inside_pay_service/inside_payment/difference",
+        "score": 0.666667
+      },
+      {
+        "node": "ts-verification-code-service:REQUEST /api/v1/verifycode/api/v1/verifycode",
+        "score": 0.5
+      },
+      {
+        "node": "ts-travel-service:DELETE /api/v1/travelservice/trips/{tripId}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/account",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/contacts",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-basic-info-service:GET /api/v1/adminbasicservice/adminbasic/stations",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-order-service:GET /api/v1/adminorderservice/adminorder",
+        "score": 0.5
+      },
+      {
+        "node": "ts-assurance-service:GET /api/v1/assuranceservice/assurances/{typeIndex}/{orderId}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-basic-info-service:POST /api/v1/adminbasicservice/adminbasic/configs",
+        "score": 0.5
+      },
+      {
+        "node": "ts-security-service:GET /api/v1/securityservice/welcome",
+        "score": 0.5
+      },
+      {
+        "node": "ts-user-service:GET /api/v1/userservice/users/{userName}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-contacts-service:GET /api/v1/contactservice/contacts/{id}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-consign-service:GET /api/v1/consignservice/welcome",
+        "score": 0.5
+      },
+      {
+        "node": "ts-ticket-office-service:POST /updateOffice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-ticketinfo-service:REQUEST /api/v1/ticketinfoservice/api/v1/ticketinfoservice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-travel2-service:DELETE /api/v1/travel2service/trips/{tripId}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-consign-price-service:GET /api/v1/consignpriceservice/welcome",
+        "score": 0.5
+      },
+      {
+        "node": "ts-station-service:POST /api/v1/stationservice/stations",
+        "score": 0.5
+      },
+      {
+        "node": "ts-ticket-office-service:POST /deleteOffice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-travel-service:GET /api/v1/travelservice/trips/{tripId}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-preserve-service:REQUEST /api/v1/preserveservice/api/v1/preserveservice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-contacts-service:GET /api/v1/contactservice/contacts/account/{accountId}",
+        "score": 0.5
+      },
+      {
+        "node": "ts-inside-payment-service:GET /api/v1/inside_pay_service/inside_payment/payment",
+        "score": 0.5
+      },
+      {
+        "node": "ts-consign-price-service:GET /api/v1/consignpriceservice/consignprice/price",
+        "score": 0.5
+      },
+      {
+        "node": "ts-notification-service:REQUEST /api/v1/notifyservice/api/v1/notifyservice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-admin-order-service:PUT /api/v1/adminorderservice/adminorder",
+        "score": 0.5
+      },
+      {
+        "node": "ts-route-service:REQUEST /api/v1/routeservice/api/v1/routeservice",
+        "score": 0.5
+      },
+      {
+        "node": "ts-config-service:PUT /api/v1/configservice/configs",
+        "score": 0.5
+      },
+      {
+        "node": "ts-price-service:POST /api/v1/priceservice/prices",
+        "score": 0.5
+      },
+      {
+        "node": "ts-station-service:GET /api/v1/stationservice/stations/name/{stationIdForName}",
+        "score": 0.5
+      }
+    ]
+  },
+  "L3 Java Method": {
+    "top_1": 0.4231,
+    "top_3": 0.7692,
+    "top_5": 0.8846,
+    "n_failing_tested": 26,
+    "top_30_nodes": [
+      {
+        "node": "ts-inside-payment-service:InsidePaymentServiceImpl.payDifference",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel2-service:Travel2Controller.getTripAllDetailInfo",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.getTripAllDetailInfo",
+        "score": 1.0
+      },
+      {
+        "node": "ts-rebook-service:RebookController.payDifference",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelController.getRouteByTripId",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.TripAllDetail",
+        "score": 1.0
+      },
+      {
+        "node": "ts-rebook-service:RebookServiceImpl.payDifference",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.TripAllDetail",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.getRouteByTripId",
+        "score": 1.0
+      },
+      {
+        "node": "ts-inside-payment-service:InsidePaymentController.payDifference",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelController.getTripAllDetailInfo",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.getTripAllDetailInfo",
+        "score": 1.0
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.Route",
+        "score": 0.972222
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.getRouteByRouteId",
+        "score": 0.972222
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.Travel",
+        "score": 0.958333
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.getTickets",
+        "score": 0.958333
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.query",
+        "score": 0.916667
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.getTickets",
+        "score": 0.875
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.Travel",
+        "score": 0.875
+      },
+      {
+        "node": "ts-assurance-service:AssuranceServiceImpl.Assurance",
+        "score": 0.833333
+      },
+      {
+        "node": "ts-assurance-service:AssuranceServiceImpl.create",
+        "score": 0.833333
+      },
+      {
+        "node": "ts-travel-service:TravelServiceImpl.queryForStationId",
+        "score": 0.805556
+      },
+      {
+        "node": "ts-inside-payment-service:InsidePaymentServiceImpl.drawBack",
+        "score": 0.75
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.getRouteByRouteId",
+        "score": 0.75
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.query",
+        "score": 0.75
+      },
+      {
+        "node": "ts-travel2-service:Travel2ServiceImpl.queryForStationId",
+        "score": 0.6875
+      },
+      {
+        "node": "ts-inside-payment-service:InsidePaymentServiceImpl.Money",
+        "score": 0.583333
+      },
+      {
+        "node": "ts-admin-travel-service:SecurityConfig.BCryptPasswordEncoder",
+        "score": 0.5
+      },
+      {
+        "node": "ts-food-map-service:FoodStore.FoodStore",
+        "score": 0.5
+      },
+      {
+        "node": "ts-order-other-service:OrderOtherController.createNewOrder",
+        "score": 0.5
+      }
+    ]
+  }
+}
